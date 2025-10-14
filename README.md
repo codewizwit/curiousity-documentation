@@ -2,8 +2,8 @@
 
 _A living notebook for everything I’ve taken apart to understand better._
 
-This repo is my personal learning lab. A collection of concise READMEs that document how different tools, frameworks, and developer-experience systems work under the hood.  
-Each folder represents a topic I’ve explored while building or debugging in real projects — from **pnpm** and **Nx** to **GitHub Actions**, **Angular**, and **Cypress**.
+This repo is my personal learning lab. A collection of concise READMEs that document how different tools, frameworks, and developer-experience systems work under the hood.
+Each folder represents a topic I've explored while building or debugging in real projects — from **pnpm** and **Nx** to **GitHub Actions**, **Angular**, testing with **Cypress**, **Playwright**, and **Jest**, and **JWTs**.
 
 The goal isn’t to teach exhaustively; it’s to make sense of things I was curious about and keep those notes in a searchable, reusable form.
 
@@ -27,7 +27,16 @@ curiosity-documentation/
 │   └── README.md
 ├── angular-nx/
 │   └── README.md
-└── testing-cypress/
+├── testing/
+│   ├── cypress/
+│   │   └── README.md
+│   ├── playwright/
+│   │   └── README.md
+│   ├── jest/
+│   │   └── README.md
+│   └── code-coverage/
+│       └── README.md
+└── jwts/
     └── README.md
 ```
 
@@ -40,11 +49,12 @@ Each topic folder contains:
 
 ## 🧠 Themes
 
-- Developer Experience & tooling clarity  
-- Testing and CI/CD pipelines  
-- Dependency management  
-- Build performance  
+- Developer Experience & tooling clarity
+- Testing and CI/CD pipelines
+- Dependency management
+- Build performance
 - Architecture patterns that make engineers faster
+- Authentication and security fundamentals
 
 ---
 
@@ -69,4 +79,4 @@ While this is primarily a personal archive, thoughtful issues or discussions are
 
 ---
 
-> _“Write it down when it’s messy, so it makes sense when it matters.”_
+> _"Write it down when it's messy, so it makes sense when it matters."_
