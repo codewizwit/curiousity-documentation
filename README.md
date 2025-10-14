@@ -91,7 +91,7 @@ curiosity-documentation/
 
 - As a personal reference when solving similar problems later  
 - To share context with teammates  
-- To document discoveries from debugging or pair sessions  
+- To document discoveries from debugging or projects  
 - To track how my understanding evolves over time
 
 ---
