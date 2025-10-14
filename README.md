@@ -79,4 +79,4 @@ While this is primarily a personal archive, thoughtful issues or discussions are
 
 ---
 
-> _"Write it down when it's messy, so it makes sense when it matters."_
+> _"Build with purpose. Ship with Care"_
