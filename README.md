@@ -47,7 +47,7 @@ Understanding coverage metrics, best practices, and pragmatic thresholds.
 ### Security & Auth
 
 **[🔐 JWTs](./jwts/README.md)**
-Understanding JSON Web Tokens, claims, issuers, and the passport metaphor.
+Understanding JSON Web Tokens, claims, issuers, with the passport metaphor.
 
 ---
 
