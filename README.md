@@ -31,7 +31,7 @@ Reusable workflows, dynamic E2E testing, @actions/core, secrets encryption, and 
 Monorepo architecture, affected commands, computation caching, and dependency graphs.
 
 **[📘 TypeScript](./typescript/README.md)**
-null vs undefined explained with the toilet paper metaphor, type narrowing, and modern operators.
+Deep dives into tricky TypeScript concepts with memorable metaphors: null vs undefined (toilet paper), async/await (hot dog stand), and more.
 
 ### Testing
 
@@ -65,7 +65,12 @@ curiosity-documentation/
 ├── angular-nx/
 │   └── README.md
 ├── typescript/
-│   └── README.md
+│   ├── README.md
+│   ├── null-vs-undefined/
+│   │   ├── README.md
+│   │   └── null-undefined-meme.png
+│   └── async-await/
+│       └── README.md
 ├── testing/
 │   ├── cypress/
 │   │   └── README.md
