@@ -36,7 +36,7 @@ Monorepo architecture, affected commands, computation caching, and dependency gr
 E2E testing patterns and passing secrets from GitHub Actions to Cypress.
 
 **[🎭 Playwright](./testing/playwright/README.md)**
-Cross-browser testing, mobile emulation, and modern E2E patterns.
+Model-Driven Development (MDD), AI-powered test generation with agents, and intelligent test automation.
 
 **[🃏 Jest](./testing/jest/README.md)**
 Unit testing, mocking strategies, and TypeScript integration.
