@@ -108,4 +108,4 @@ While this is primarily a personal archive, thoughtful issues or discussions are
 
 ---
 
-> _"Build with purpose. Ship with Care"_
+> _Build with care. Ship with purpose._
