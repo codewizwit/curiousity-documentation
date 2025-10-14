@@ -19,6 +19,40 @@ This repo captures that process in public, so others can learn (or correct me) a
 
 ## 📁 Structure
 
+### Core Topics
+
+**[📦 pnpm](./pnpm/README.md)**
+Dependency management, workspace patterns, and Module Federation with Nx.
+
+**[⚙️ GitHub Actions](./github-actions/README.md)**
+Reusable workflows, dynamic E2E testing, @actions/core, secrets encryption, and writing coverage to release notes.
+
+**[🏗️ Angular + Nx](./angular-nx/README.md)**
+Monorepo architecture, affected commands, computation caching, and dependency graphs.
+
+### Testing
+
+**[🧪 Cypress](./testing/cypress/README.md)**
+E2E testing patterns and passing secrets from GitHub Actions to Cypress.
+
+**[🎭 Playwright](./testing/playwright/README.md)**
+Cross-browser testing, mobile emulation, and modern E2E patterns.
+
+**[🃏 Jest](./testing/jest/README.md)**
+Unit testing, mocking strategies, and TypeScript integration.
+
+**[📊 Code Coverage](./testing/code-coverage/README.md)**
+Understanding coverage metrics, best practices, and pragmatic thresholds.
+
+### Security & Auth
+
+**[🔐 JWTs](./jwts/README.md)**
+Understanding JSON Web Tokens, claims, issuers, and the passport metaphor.
+
+---
+
+### Quick Navigation
+
 ```
 curiosity-documentation/
 ├── pnpm/
@@ -39,11 +73,6 @@ curiosity-documentation/
 └── jwts/
     └── README.md
 ```
-
-Each topic folder contains:
-- A short overview (`README.md`)
-- Notes, experiments, or diagrams if relevant
-- Links to references and official docs
 
 ---
 
