@@ -3,7 +3,7 @@
 _A living notebook for everything I’ve taken apart to understand better._
 
 This repo is my personal learning lab. A collection of concise READMEs that document how different tools, frameworks, and developer-experience systems work under the hood.
-Each folder represents a topic I've explored while building or debugging in real projects — from **pnpm** and **Nx** to **GitHub Actions**, **Angular**, testing with **Cypress**, **Playwright**, and **Jest**, and **JWTs**.
+Each folder represents a topic I've explored while building or debugging in real projects — from **pnpm** and **Nx** to **GitHub Actions**, **Angular**, **TypeScript**, testing with **Cypress**, **Playwright**, and **Jest**, and **JWTs**.
 
 The goal isn’t to teach exhaustively; it’s to make sense of things I was curious about and keep those notes in a searchable, reusable form.
 
@@ -29,6 +29,9 @@ Reusable workflows, dynamic E2E testing, @actions/core, secrets encryption, and 
 
 **[🏗️ Angular + Nx](./angular-nx/README.md)**
 Monorepo architecture, affected commands, computation caching, and dependency graphs.
+
+**[📘 TypeScript](./typescript/README.md)**
+null vs undefined explained with the toilet paper metaphor, type narrowing, and modern operators.
 
 ### Testing
 
@@ -60,6 +63,8 @@ curiosity-documentation/
 ├── github-actions/
 │   └── README.md
 ├── angular-nx/
+│   └── README.md
+├── typescript/
 │   └── README.md
 ├── testing/
 │   ├── cypress/
