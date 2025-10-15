@@ -16,7 +16,7 @@ This document outlines the proposal to migrate from `npm` to `pnpm` in our Nx mo
 - **Improved CI/CD Performance**: Smaller `node_modules`, faster install times, and better caching translate into shorter pipelines.
 - **Better Monorepo Fit**: `pnpm` aligns naturally with Nx project boundaries and facilitates enforceable module boundaries, especially for shared libraries.
 
-### ⚠️ Pain Points with npm/yarn in Our Current Setup
+### ⚠️ Pain Points with npm/yarn
 - All packages live at the root, even if not used by all apps.
 - Federation builds are slow and risk unwanted cross-dependencies.
 - CI builds and local environments often suffer from unnecessary dependency hoisting.
