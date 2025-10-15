@@ -30,6 +30,9 @@ Reusable workflows, dynamic E2E testing, @actions/core, secrets encryption, and 
 **[🏗️ Angular + Nx](./angular-nx/README.md)**
 Monorepo architecture, affected commands, computation caching, and dependency graphs.
 
+**[⚡ Angular Modern Reactivity](./angular/README.md)**
+Understanding signals, computed, and effect — Angular's new reactivity system explained with the whiteboard metaphor.
+
 **[📘 TypeScript](./typescript/README.md)**
 Deep dives into tricky TypeScript concepts with memorable metaphors: null vs undefined (toilet paper), async/await (hot dog stand), and more.
 
@@ -64,6 +67,14 @@ curiosity-documentation/
 │   └── README.md
 ├── angular-nx/
 │   └── README.md
+├── angular/
+│   ├── README.md
+│   ├── signals/
+│   │   └── README.md
+│   ├── computed/
+│   │   └── README.md
+│   └── effect/
+│       └── README.md
 ├── typescript/
 │   ├── README.md
 │   ├── null-vs-undefined/
