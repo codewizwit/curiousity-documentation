@@ -24,6 +24,9 @@ This repo captures that process in public, so others can learn (or correct me) a
 **[📦 pnpm](./pnpm/README.md)**
 Dependency management, workspace patterns, and Module Federation with Nx.
 
+**[📦 npm](./npm/README.md)**
+Guide on how to publish to npm using [human-in-the-loop](https://www.npmjs.com/package/@human-in-the-loop/cli) as an example. 
+
 **[⚙️ GitHub Actions](./github-actions/README.md)**
 Reusable workflows, dynamic E2E testing, @actions/core, secrets encryption, and writing coverage to release notes.
 
@@ -65,6 +68,8 @@ Understanding JSON Web Tokens, claims, issuers, with the passport metaphor.
 ```
 curiosity-documentation/
 ├── pnpm/
+│   └── README.md
+├── npm/
 │   └── README.md
 ├── github-actions/
 │   └── README.md
