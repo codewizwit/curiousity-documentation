@@ -33,6 +33,9 @@ Monorepo architecture, affected commands, computation caching, and dependency gr
 **[⚡ Angular Modern Reactivity](./angular/README.md)**
 Understanding signals, computed, and effect — Angular's new reactivity system explained with the whiteboard metaphor.
 
+**[⚛️ Next.js](./nextjs/README.md)**
+The full-stack React framework explained with the restaurant kitchen metaphor — from rendering modes to API routes.
+
 **[📘 TypeScript](./typescript/README.md)**
 Deep dives into tricky TypeScript concepts with memorable metaphors: null vs undefined (toilet paper), async/await (hot dog stand), and more.
 
@@ -75,6 +78,8 @@ curiosity-documentation/
 │   │   └── README.md
 │   └── effect/
 │       └── README.md
+├── nextjs/
+│   └── README.md
 ├── typescript/
 │   ├── README.md
 │   ├── null-vs-undefined/
