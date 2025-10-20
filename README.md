@@ -42,6 +42,11 @@ The full-stack React framework explained with the restaurant kitchen metaphor �
 **[📘 TypeScript](./typescript/README.md)**
 Deep dives into tricky TypeScript concepts with memorable metaphors: null vs undefined (toilet paper), async/await (hot dog stand), and more.
 
+### Beyond Code
+
+**[🏗️ Ancient Pyramids](./pyramids/README.md)**
+How ancient builders achieved impossible precision through math, measurement, and methodical design — with ASCII diagrams showing the geometry.
+
 ### Testing
 
 **[🧪 Cypress](./testing/cypress/README.md)**
@@ -92,6 +97,8 @@ curiosity-documentation/
 │   │   └── null-undefined-meme.png
 │   └── async-await/
 │       └── README.md
+├── pyramids/
+│   └── README.md
 ├── testing/
 │   ├── cypress/
 │   │   └── README.md
