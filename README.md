@@ -1,6 +1,8 @@
 # 🧭 Curiosity Documentation
 
-_A living notebook for everything I’ve taken apart to understand better._
+_A living notebook for everything I've taken apart to understand better._
+
+**Built by Alexandra Kelstrom** — a software engineer who puts people first. I believe the best way to understand something is to explain it simply. I approach engineering with curiosity and empathy, breaking down complexity with metaphors and documenting the journey from confusion to clarity.
 
 This repo is my personal learning lab. A collection of concise READMEs that document how different tools, frameworks, and developer-experience systems work under the hood.
 Each folder represents a topic I've explored while building or debugging in real projects — from **pnpm** and **Nx** to **GitHub Actions**, **Angular**, **TypeScript**, testing with **Cypress**, **Playwright**, and **Jest**, and **JWTs**.
@@ -11,9 +13,32 @@ The goal isn’t to teach exhaustively; it’s to make sense of things I was cur
 
 ## 🧩 Why this exists
 
-I learn best by documenting what I figure out.  
-Writing things down turns curiosity into clarity — and clarity into better code.  
+I learn best by documenting what I figure out.
+Writing things down turns curiosity into clarity — and clarity into better code.
 This repo captures that process in public, so others can learn (or correct me) along the way.
+
+<div align="center">
+  <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExdm01dTNwdGc4YTNqbmJwMmxxeGRsNWNoajhqanJ4bG53YXJsMXQ2MyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/N7aAkvk6lSpYoLaAEi/giphy.gif" alt="Why don't you explain this to me like I'm five" width="500">
+  <p><em>My documentation philosophy in a nutshell.</em></p>
+</div>
+
+Every topic here is broken down with metaphors, relatable examples, and the kind of explanations that would make sense to your past self when you first encountered the concept. No gatekeeping. No assuming prior knowledge. Just clear, honest learning in public.
+
+---
+
+## ⭐ Featured Deep Dives
+
+Here are some of the most detailed explorations in this repo — great starting points if you're new here:
+
+**[🤝 Responsible AI](./responsible-ai/README.md)** — _No Human Left Behind._ A manifesto and practical framework for building AI that puts people first. Covers the Developer-First Accountability Framework, critical questions for AI adoption, and why human dignity must be non-negotiable in our systems.
+
+**[⚡ Angular Modern Reactivity](./angular/README.md)** — Understanding signals, computed, and effect with the whiteboard metaphor. A complete breakdown of Angular's new reactive primitives and when to use each one.
+
+**[⚙️ GitHub Actions](./github-actions/README.md)** — Dynamic E2E testing, reusable workflows, secrets encryption with libsodium, and writing coverage reports to release notes. Real-world CI/CD patterns.
+
+**[🏗️ Ancient Pyramids](./pyramids/README.md)** — How ancient Egyptian engineers achieved impossible precision through methodical design, geometry, and measurement. ASCII diagrams included. (Yes, this is a software engineering repo—but the principles are timeless.)
+
+**[📘 TypeScript: null vs undefined](./typescript/null-vs-undefined/README.md)** — The toilet paper metaphor that finally makes the difference stick. Includes memes.
 
 ---
 
@@ -41,6 +66,11 @@ The full-stack React framework explained with the restaurant kitchen metaphor �
 
 **[📘 TypeScript](./typescript/README.md)**
 Deep dives into tricky TypeScript concepts with memorable metaphors: null vs undefined (toilet paper), async/await (hot dog stand), and more.
+
+### Responsible AI
+
+**[🤝 Responsible AI](./responsible-ai/README.md)**
+No Human Left Behind. A manifesto and framework for building AI that enhances human creativity without replacing human judgment — with the Developer-First Accountability Framework.
 
 ### Beyond Code
 
@@ -99,6 +129,8 @@ curiosity-documentation/
 │       └── README.md
 ├── pyramids/
 │   └── README.md
+├── responsible-ai/
+│   └── README.md
 ├── testing/
 │   ├── cypress/
 │   │   └── README.md
@@ -114,8 +146,31 @@ curiosity-documentation/
 
 ---
 
+## 🚀 Projects in Practice
+
+### [Human in the Loop](https://github.com/codewizwit/human-in-the-loop)
+
+A production toolkit for centralized AI governance — bringing order to scattered prompts, agents, and AI tools across teams.
+
+**What it does:** CLI for discovering, installing, and managing versioned AI prompts and agents with built-in quality controls and adoption tracking.
+
+**Published:** [@human-in-the-loop/cli](https://www.npmjs.com/package/@human-in-the-loop/cli) on npm
+
+**Technologies from this repo:**
+- TypeScript (strict mode)
+- Nx monorepo architecture
+- pnpm workspace management
+- npm publishing pipeline
+- Jest for testing
+- GitHub Actions for CI/CD
+
+This project demonstrates the concepts documented here in a real-world, open-source package — and embodies the [Responsible AI](./responsible-ai/README.md) principles through its Developer-First Accountability Framework.
+
+---
+
 ## 🧠 Themes
 
+- **Responsible AI & human-centered technology**
 - Developer Experience & tooling clarity
 - Testing and CI/CD pipelines
 - Dependency management
