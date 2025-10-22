@@ -1,6 +1,6 @@
 # 🧭 Curiosity Documentation
 
-_A living notebook for everything I've taken apart to understand better._
+_A living notebook for topics I've taken apart to understand better._
 
 **Built by Alexandra Kelstrom** — a software engineer who puts people first. I believe the best way to understand something is to explain it simply. I approach engineering with curiosity and empathy, breaking down complexity with metaphors and documenting the journey from confusion to clarity.
 
