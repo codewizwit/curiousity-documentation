@@ -2,7 +2,7 @@
 
 _No Human Left Behind._
 
-## AI Is Power — and Power Demands Accountability
+## AI Is Power and Power Demands Accountability
 
 AI is not just code. It's power. The kind that shapes economies, rewrites culture, and redraws the boundaries of human life. It's already transforming how we learn, create, work, and connect. And whether we admit it or not, it's also deciding who gets to thrive — and who's left behind.
 
