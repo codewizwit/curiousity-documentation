@@ -27,24 +27,24 @@ That translates to a **slope angle of about 51.84°**, the same angle seen repea
 #### Pyramid Cross-Section: The Perfect Angle
 
 ```
-                          ▲ Apex
-                         ╱│╲
-                        ╱ │ ╲
-                       ╱  │  ╲
-                      ╱   │   ╲               Height (h) = 280 cubits
-                     ╱    │    ╲
-                    ╱     │     ╲             Ratio: h / (base/2)
-                   ╱      │      ╲            = 280 / 220 ≈ 1.27
-                  ╱       │       ╲
-                 ╱        │        ╲          Slope angle: 51.84°
-                ╱         │         ╲         (Very close to √φ)
-               ╱   51.84° │ 51.84°   ╲
-              ╱____________│____________╲
-             ◄────────220──┼──220────────►
-                   Half-base│Half-base
+                             /\  Apex
+                            /  \
+                           /    \
+                          /      \
+                         /   |    \           Height (h) = 280 cubits
+                        /    |     \
+                       /     |      \         Ratio: h / (base/2)
+                      /      |       \        = 280 / 220 ≈ 1.27
+                     /       |        \
+                    /        |         \      Slope angle: 51.84°
+                   /         |          \     (Very close to √φ)
+                  /   51.84° | 51.84°    \
+                 /___________|____________\
+                <------220---|---220------>
+                    Half-base   Half-base
 
-             ◄────────440 cubits──────────►
-                      (Full Base)
+                <--------440 cubits-------->
+                         (Full Base)
 ```
 
 **Key Insight:**
