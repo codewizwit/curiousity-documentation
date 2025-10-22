@@ -256,7 +256,7 @@ The best AI tools:
 
 This work will be messy. It will demand courage, collaboration, and humility. But it's work worth doing.
 
-Let's build technology that serves people. Let's build systems worthy of our trust. Let's build a future where progress and humanity move forward —**together**.
+Let's build technology that serves people. Let's build systems worthy of our trust. Let's build a future where progress and humanity move forward **together**.
 
 ---
 
