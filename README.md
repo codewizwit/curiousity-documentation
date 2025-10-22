@@ -4,7 +4,7 @@ _A living notebook for everything I've taken apart to understand better._
 
 **Built by Alexandra Kelstrom** — a software engineer who puts people first. I believe the best way to understand something is to explain it simply. I approach engineering with curiosity and empathy, breaking down complexity with metaphors and documenting the journey from confusion to clarity.
 
-This repo is my personal learning lab — a collection of deep dives into things that spark my curiosity and passion. Some topics come from building or debugging real projects. Others are just rabbit holes worth exploring. From **responsible AI** and **ancient pyramid engineering** to **Angular signals**, **NestJS**, **Next.js**, **GitHub Actions**, **TypeScript**, **pnpm**, **Nx**, testing with **Cypress**, **Playwright**, and **Jest**, and **JWTs**... If I wanted to understand how it really works, it's probably documented here.
+This repo is my personal learning lab — a collection of deep dives into things that spark my curiosity and passion. Some topics come from building or debugging real projects. Others are just rabbit holes worth exploring. From **responsible AI** and **accessibility** to **Angular signals**, **NestJS**, **Next.js**, **GitHub Actions**, **TypeScript**, **ancient pyramid engineering**, **pnpm**, **Nx**, testing with **Cypress**, **Playwright**, and **Jest**, and **JWTs**... If I wanted to understand how it really works, it's probably documented here.
 
 The goal isn’t to teach exhaustively; it’s to make sense of things I was curious about and keep those notes in a searchable, reusable form.
 
@@ -30,6 +30,8 @@ Every topic here is broken down with metaphors, relatable examples, and the kind
 Here are some of the most detailed explorations in this repo — great starting points if you're new here:
 
 **[🤝 Responsible AI](./responsible-ai/README.md)** — _No Human Left Behind._ A manifesto and practical framework for building AI that puts people first. Covers the Developer-First Accountability Framework, critical questions for AI adoption, and why human dignity must be non-negotiable in our systems. Includes a deep dive on [Building with LLMs](./responsible-ai/llm/README.md) with security patterns, guardrails, and human-in-the-loop implementation.
+
+**[♿ Web Accessibility](./accessibility/README.md)** — Building for everyone, not just some. Practical patterns for semantic HTML, keyboard navigation, screen readers, ARIA, color contrast, and accessible forms. Universal design benefits everyone.
 
 **[⚡ Angular Modern Reactivity](./angular/README.md)** — Understanding signals, computed, and effect with the whiteboard metaphor. A complete breakdown of Angular's new reactive primitives and when to use each one.
 
@@ -68,6 +70,11 @@ Angular's architecture for the backend — bringing structure, scalability, and 
 
 **[📘 TypeScript](./typescript/README.md)**
 Deep dives into tricky TypeScript concepts with memorable metaphors: null vs undefined (toilet paper), async/await (hot dog stand), and more.
+
+### People-First Development
+
+**[♿ Web Accessibility](./accessibility/README.md)**
+Building for everyone: semantic HTML, keyboard navigation, screen readers, ARIA, color contrast, and accessible forms. Equity in practice.
 
 ### Responsible AI
 
@@ -135,6 +142,8 @@ curiosity-documentation/
 │       └── README.md
 ├── pyramids/
 │   └── README.md
+├── accessibility/
+│   └── README.md
 ├── responsible-ai/
 │   ├── README.md
 │   └── llm/
@@ -179,6 +188,7 @@ This project demonstrates the concepts documented here in a real-world, open-sou
 ## 🧠 Themes
 
 - **Responsible AI & human-centered technology**
+- **Accessibility & inclusive design**
 - Developer Experience & tooling clarity
 - Testing and CI/CD pipelines
 - Dependency management
