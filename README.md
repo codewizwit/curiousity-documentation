@@ -4,7 +4,7 @@ _A living notebook for everything I've taken apart to understand better._
 
 **Built by Alexandra Kelstrom** — a software engineer who puts people first. I believe the best way to understand something is to explain it simply. I approach engineering with curiosity and empathy, breaking down complexity with metaphors and documenting the journey from confusion to clarity.
 
-This repo is my personal learning lab — a collection of deep dives into things that spark my curiosity and passion. Some topics come from building or debugging real projects. Others are just rabbit holes worth exploring. From **responsible AI** and **ancient pyramid engineering** to **Angular signals**, **GitHub Actions**, **TypeScript**, **pnpm**, **Nx**, testing with **Cypress**, **Playwright**, and **Jest**, and **JWTs**... If I wanted to understand how it really works, it's probably documented here.
+This repo is my personal learning lab — a collection of deep dives into things that spark my curiosity and passion. Some topics come from building or debugging real projects. Others are just rabbit holes worth exploring. From **responsible AI** and **ancient pyramid engineering** to **Angular signals**, **NestJS**, **Next.js**, **GitHub Actions**, **TypeScript**, **pnpm**, **Nx**, testing with **Cypress**, **Playwright**, and **Jest**, and **JWTs**... If I wanted to understand how it really works, it's probably documented here.
 
 The goal isn’t to teach exhaustively; it’s to make sense of things I was curious about and keep those notes in a searchable, reusable form.
 
@@ -63,6 +63,9 @@ Understanding signals, computed, and effect — Angular's new reactivity system 
 **[⚛️ Next.js](./nextjs/README.md)**
 The full-stack React framework explained with the restaurant kitchen metaphor (from rendering modes to API routes).
 
+**[🏗️ NestJS](./nestjs/README.md)**
+Angular's architecture for the backend — bringing structure, scalability, and sanity to Node.js with decorators, dependency injection, and modules.
+
 **[📘 TypeScript](./typescript/README.md)**
 Deep dives into tricky TypeScript concepts with memorable metaphors: null vs undefined (toilet paper), async/await (hot dog stand), and more.
 
@@ -118,6 +121,8 @@ curiosity-documentation/
 │   └── effect/
 │       └── README.md
 ├── nextjs/
+│   └── README.md
+├── nestjs/
 │   └── README.md
 ├── typescript/
 │   ├── README.md
