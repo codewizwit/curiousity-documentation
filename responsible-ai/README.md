@@ -12,6 +12,8 @@ This isn't a technical bug. **It's a values bug we keep shipping to production.*
 
 This section documents principles and practices for building AI that puts people first — grounded in the belief that human dignity is not negotiable, and that those closest to the impact must have a seat at the table shaping the future.
 
+**📖 Implementation Guide:** For practical patterns on building with LLMs responsibly, see [Building with LLMs: Responsible Development](./llm/README.md) — covering security, guardrails, human-in-the-loop patterns, and production best practices.
+
 ---
 
 ## Core Beliefs

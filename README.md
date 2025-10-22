@@ -29,7 +29,7 @@ Every topic here is broken down with metaphors, relatable examples, and the kind
 
 Here are some of the most detailed explorations in this repo — great starting points if you're new here:
 
-**[🤝 Responsible AI](./responsible-ai/README.md)** — _No Human Left Behind._ A manifesto and practical framework for building AI that puts people first. Covers the Developer-First Accountability Framework, critical questions for AI adoption, and why human dignity must be non-negotiable in our systems.
+**[🤝 Responsible AI](./responsible-ai/README.md)** — _No Human Left Behind._ A manifesto and practical framework for building AI that puts people first. Covers the Developer-First Accountability Framework, critical questions for AI adoption, and why human dignity must be non-negotiable in our systems. Includes a deep dive on [Building with LLMs](./responsible-ai/llm/README.md) with security patterns, guardrails, and human-in-the-loop implementation.
 
 **[⚡ Angular Modern Reactivity](./angular/README.md)** — Understanding signals, computed, and effect with the whiteboard metaphor. A complete breakdown of Angular's new reactive primitives and when to use each one.
 
@@ -72,7 +72,9 @@ Deep dives into tricky TypeScript concepts with memorable metaphors: null vs und
 ### Responsible AI
 
 **[🤝 Responsible AI](./responsible-ai/README.md)**
-No Human Left Behind. A manifesto and framework for building AI that enhances human creativity without replacing human judgment, with a Developer-First Accountability Framework.
+No Human Left Behind. A manifesto and framework for building AI that enhances human creativity without replacing human judgment — with the Developer-First Accountability Framework and practical implementation guides.
+
+- **[Building with LLMs](./responsible-ai/llm/README.md)** - Security, guardrails, human-in-the-loop patterns, evaluation, and cost management for production LLM systems.
 
 ### Beyond Code
 
@@ -134,7 +136,9 @@ curiosity-documentation/
 ├── pyramids/
 │   └── README.md
 ├── responsible-ai/
-│   └── README.md
+│   ├── README.md
+│   └── llm/
+│       └── README.md
 ├── testing/
 │   ├── cypress/
 │   │   └── README.md
