@@ -4,7 +4,7 @@ _Building for everyone, not just some._
 
 ## Overview
 
-Accessibility isn't a feature you add at the end. It's a fundamental part of building software that puts people first. When we build inaccessible applications, we're not just creating a bad experience — we're actively excluding people from participating in digital life.
+Accessibility isn't a feature you add at the end. It's a fundamental part of building software that puts people first. When we build inaccessible applications, we're not just creating a bad experience, we're actively excluding people from participating in digital life.
 
 This isn't about compliance checklists or legal requirements (though those matter). It's about recognizing that **disability is part of the human experience**, and our job as engineers is to build systems that work for everyone.
 
@@ -23,7 +23,7 @@ Same beautiful building, but with:
 - **Adjustable features** (text sizing, contrast modes)
 - **Sensory alternatives** (captions for video, alt text for images)
 
-Everyone can use the building. And often, the accessible features help everyone — parents with strollers, people with temporary injuries, people in bright sunlight who need contrast.
+Everyone can use the building. And often, the accessible features help everyone - parents with strollers, people with temporary injuries, people in bright sunlight who need contrast.
 
 **Universal design benefits everyone.**
 
