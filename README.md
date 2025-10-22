@@ -4,7 +4,7 @@ _A living notebook for everything I've taken apart to understand better._
 
 **Built by Alexandra Kelstrom** — a software engineer who puts people first. I believe the best way to understand something is to explain it simply. I approach engineering with curiosity and empathy, breaking down complexity with metaphors and documenting the journey from confusion to clarity.
 
-This repo is my personal learning lab — a collection of deep dives into things that spark my curiosity and passion. Some topics come from building or debugging real projects. Others are just rabbit holes worth exploring. From **responsible AI** and **ancient pyramid engineering** to **Angular signals**, **GitHub Actions**, **TypeScript**, **pnpm**, **Nx**, testing with **Cypress**, **Playwright**, and **Jest**, and **JWTs**. If I wanted to understand how it really works, it's probably documented here.
+This repo is my personal learning lab — a collection of deep dives into things that spark my curiosity and passion. Some topics come from building or debugging real projects. Others are just rabbit holes worth exploring. From **responsible AI** and **ancient pyramid engineering** to **Angular signals**, **GitHub Actions**, **TypeScript**, **pnpm**, **Nx**, testing with **Cypress**, **Playwright**, and **Jest**, and **JWTs**... If I wanted to understand how it really works, it's probably documented here.
 
 The goal isn’t to teach exhaustively; it’s to make sense of things I was curious about and keep those notes in a searchable, reusable form.
 
