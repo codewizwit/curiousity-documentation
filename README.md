@@ -3,8 +3,6 @@ _A living notebook where curiosity meets code._
 
 Welcome to my curiosity lab: part experiment, part documentation binge, part "wait, how does that actually work?" moment.
 
-Every folder here started with a question I couldn't stop thinking about. **Handwritten bootcamp notebooks** (2020) trying to understand JavaScript's event loop. Production docs on **AWS Lambda**, **REST APIs**, and **responsible AI governance**. **TypeScript brain-benders**. The **geometry behind ancient pyramids** (yes, really).
-
 This is where I document until things make sense.
 It's not perfect, but it's honest, and usually a little weird (in the best way).
 
