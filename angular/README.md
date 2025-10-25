@@ -53,6 +53,37 @@ Imagine you're working in an office with a team:
 
 ## Topics
 
+### [Quick Reference Cheatsheet](./cheatsheet/README.md)
+
+Bite-sized quick reference for modern Angular basics: new control flow syntax, standalone components, dependency injection, routing, and common patterns.
+
+**What you'll learn:**
+- Modern control flow (`@if`, `@for`, `@switch`)
+- Standalone components and `inject()`
+- Signal-based inputs and outputs
+- Two-way binding and the "banana-in-a-box" syntax
+- HTTP requests and common patterns
+- Migration from old Angular to modern Angular
+
+**Key insight:** If you're learning Angular now, start here. This is the modern way.
+
+---
+
+### [Observables: Async Data Streams](./observables/README.md)
+
+Understanding RxJS Observables, the async powerhouse behind Angular's HTTP, Router, and reactive Forms.
+
+**What you'll learn:**
+- What Observables are (the newsletter metaphor)
+- Common RxJS operators (`map`, `filter`, `switchMap`, `debounceTime`)
+- The AsyncPipe and avoiding memory leaks
+- When to use Observables vs Signals
+- Real-world patterns (search with debounce, polling, retries)
+
+**Key insight:** Observables aren't going away. Use them for async operations, Signals for state.
+
+---
+
 ### [Signals: The New State Primitive](./signals/README.md)
 
 Compare `signal()` to the old `BehaviorSubject` pattern.
@@ -171,6 +202,10 @@ export class HybridComponent {
 ```
 angular/
 ├── README.md (you are here)
+├── cheatsheet/
+│   └── README.md
+├── observables/
+│   └── README.md
 ├── signals/
 │   └── README.md
 ├── computed/
@@ -192,4 +227,4 @@ angular/
 
 _Making reactivity obvious: From streams and subscriptions to signals and sticky notes._ 🌭
 
-← [Back to Home](../README.md) | [Signals](./signals/README.md) | [Computed](./computed/README.md) | [Effect](./effect/README.md)
+← [Back to Home](../README.md) | [Cheatsheet](./cheatsheet/README.md) | [Observables](./observables/README.md) | [Signals](./signals/README.md) | [Computed](./computed/README.md) | [Effect](./effect/README.md)

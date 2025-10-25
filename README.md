@@ -53,7 +53,7 @@ If you've ever Googled something and wished the explanation was written by a hum
 
 | Topic | What I'm Figuring Out |
 |-------|----------------------|
-| **[⚡ Angular](./angular/README.md)** | Signals, computed, effect. Angular's new reactivity system that makes state updates obvious |
+| **[⚡ Angular](./angular/README.md)** | Modern Angular reference: [cheatsheet](./angular/cheatsheet/README.md), [observables](./angular/observables/README.md), [signals](./angular/signals/README.md), computed, and effect |
 | **[⚛️ React](./react/README.md)** | Components, hooks, and building UIs with reusable blocks |
 | **[🚀 Next.js](./nextjs/README.md)** | SSR, SSG, ISR, and rendering modes. Making React apps fast and SEO-friendly |
 | **[🏗️ Angular + Nx](./angular-nx/README.md)** | Monorepo architecture, dependency graphs, and computation caching |
