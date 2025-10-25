@@ -17,18 +17,11 @@ It's not perfect, but it's honest, and usually a little weird (in the best way).
 
 ## 🤓 Why This Exists
 
-Because documentation is how I think and _remember_.
-And because curiosity is the best dev skill no one puts on their résumé.
+Because documentation is how I think and remember. And because curiosity is the best dev skill no one puts on their résumé.
 
-**The throughline?** Five years of the same instinct: If I'm confused, I write it down. If I figure it out, I document it. If I build it, I explain it like I'm eight.
-
-**This habit started in bootcamp**: filling notebooks with diagrams, question marks in the margins, crossed-out explanations where I got it wrong. When async JavaScript finally clicked, I documented that moment. When MongoDB schema design made sense, I wrote it down. When JWTs stopped being magic, I captured the "aha."
-
-Five years later, I still do the same thing. Just with better tools (and legible handwriting, since I type now).
+**Five years of the same instinct:** If I'm confused, I write it down. If I figure it out, I document it. If I build it, I explain it like I'm eight. Started in bootcamp with handwritten notebooks, question marks in margins, and crossed-out mistakes. Still doing it now, just typed.
 
 **This repo is new, but the habit isn't.** These notes lived in Notion for years. I moved them here to make them easier to search, share, and reference. Plus, I didn't want to be an information hoarder - documentation should be for everyone, not just me.
-
-This repo is learning in public. Mistakes documented. Confusion captured. Breakthroughs explained.
 
 If you've ever Googled something and wished the explanation actually made sense, welcome home.
 
