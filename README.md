@@ -229,7 +229,7 @@ curiosity-documentation/
 
 ## 🪩 Credits
 
-Written by a small human with a big appetite for learning.
+Written by a tiny human with a HUGE appetite for learning. </br>
 Powered by snacks, curiosity, and the occasional assist from modern AI tools.
 
 Created and maintained by **Alexandra Kelstrom** ([@codewizwit](https://github.com/codewizwit)) 🌭
