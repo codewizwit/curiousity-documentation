@@ -26,7 +26,7 @@ And because curiosity is the best dev skill no one puts on their résumé.
 
 Five years later, I still do the same thing. Just with better tools (and legible handwriting, since I type now).
 
-**This repo is new, but the habit isn't.** These notes lived in Notion for years. I moved them here to make them easier to search, share, and reference.
+**This repo is new, but the habit isn't.** These notes lived in Notion for years. I moved them here to make them easier to search, share, and reference. Plus, I didn't want to be an information hoarder - documentation should be for everyone, not just me.
 
 This repo is learning in public. Mistakes documented. Confusion captured. Breakthroughs explained.
 
