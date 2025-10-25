@@ -222,8 +222,8 @@ curiosity-documentation/
 
 ## 🪩 Credits
 
-Written by a tiny human with a HUGE appetite for learning. </br>
-Powered by snacks, curiosity, and the occasional assist from modern AI tools.
+Written by a tiny human with a HUGE appetite for learning.
+Powered by snacks, curiosity, and collaborative iteration with Claude (Anthropic's AI).
 
 Created and maintained by **Alexandra Kelstrom** ([@codewizwit](https://github.com/codewizwit)) 🌭
 
