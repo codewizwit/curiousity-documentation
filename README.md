@@ -20,7 +20,7 @@ It's not perfect, but it's honest, and usually a little weird (in the best way).
 Because documentation is how I think and _remember_.
 And because curiosity is the best dev skill no one puts on their résumé.
 
-**The throughline?** Five years of the same instinct: If I'm confused, I write it down. If I figure it out, I document it. If I build it, I explain it like I'm five.
+**The throughline?** Five years of the same instinct: If I'm confused, I write it down. If I figure it out, I document it. If I build it, I explain it like I'm eight.
 
 **This habit started in bootcamp**: filling notebooks with diagrams, question marks in the margins, crossed-out explanations where I got it wrong. When async JavaScript finally clicked, I documented that moment. When MongoDB schema design made sense, I wrote it down. When JWTs stopped being magic, I captured the "aha."
 
