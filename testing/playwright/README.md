@@ -15,7 +15,7 @@ Test in Chrome, Firefox, and Safari (WebKit) without changing your code. Run the
 Like Cypress, Playwright automatically waits for elements to be ready before interacting with them. No more flaky tests from timing issues.
 
 **Multiple Contexts**
-Test different user sessions simultaneously — like having multiple incognito windows open at once. Great for testing multi-user features.
+Test different user sessions simultaneously, like having multiple incognito windows open at once. Great for testing multi-user features.
 
 **Network Interception**
 Mock API responses, test offline scenarios, or verify what requests your app makes.

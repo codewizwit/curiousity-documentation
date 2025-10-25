@@ -4,7 +4,7 @@ _Coverage tells you what's tested. Not if it's tested well._
 
 ## What Is Code Coverage?
 
-Code coverage measures how much of your code is executed when tests run. It's a useful metric, but it's not a measure of test quality — just a map of what got touched.
+Code coverage measures how much of your code is executed when tests run. It's a useful metric, but it's not a measure of test quality. It's just a map of what got touched.
 
 Think of it like a fitness tracker: it tells you how much you walked, but not if you walked efficiently or reached your destination.
 

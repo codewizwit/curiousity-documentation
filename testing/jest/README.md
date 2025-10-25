@@ -15,7 +15,7 @@ Works with most JavaScript projects right away. Sensible defaults mean you can s
 Jest runs tests in parallel across multiple workers, making large test suites finish quickly.
 
 **Built-in Mocking**
-Mock functions, modules, timers — everything you need without additional libraries.
+Mock functions, modules, timers - everything you need without additional libraries.
 
 **Snapshot Testing**
 Capture component output and detect unexpected changes. Great for React components and data structures.

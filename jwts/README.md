@@ -10,7 +10,7 @@ Imagine you're traveling internationally. Your passport contains:
 - **Issuing country seal** (who vouches for you)
 - **Expiration date** (how long it's valid)
 
-A JWT works the same way for web applications. When you log in, the auth server hands you a "digital passport" that proves who you are and what you're allowed to access — without needing to check back with the server every single time.
+A JWT works the same way for web applications. When you log in, the auth server hands you a "digital passport" that proves who you are and what you're allowed to access, without needing to check back with the server every single time.
 
 The magic? Just like border agents can verify your passport without calling your home country, any server can verify your JWT without asking the auth server "is this legit?"
 
@@ -23,7 +23,7 @@ eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4
 ```
 
 ### 1. Header (The Passport Type)
-Think of this as "what kind of document is this?" — it tells you it's a JWT and how it's secured.
+Think of this as "what kind of document is this?" It tells you it's a JWT and how it's secured.
 ```json
 {
   "alg": "HS256",    // The security seal type
@@ -32,7 +32,7 @@ Think of this as "what kind of document is this?" — it tells you it's a JWT an
 ```
 
 ### 2. Payload (The Passport Pages)
-This is where all your info lives — who you are, what you can do, when your passport expires.
+This is where all your info lives: who you are, what you can do, when your passport expires.
 ```json
 {
   "sub": "1234567890",       // Your unique ID
@@ -48,7 +48,7 @@ Like the hologram on your passport, this proves the document is authentic and ha
 
 ## Understanding Claims (The Passport Details)
 
-Claims are just the pieces of information written in your JWT passport. Think of them like different fields on your actual passport — some are standard (like your name and photo), others are custom (like visa stamps for specific countries).
+Claims are just the pieces of information written in your JWT passport. Think of them like different fields on your actual passport. Some are standard (like your name and photo), others are custom (like visa stamps for specific countries).
 
 ### Standard Claims (The Usual Passport Fields)
 These are the internationally recognized fields that most JWTs include. They're optional, but using them makes your JWTs play nicely with other systems.
@@ -74,7 +74,7 @@ Think of these like standardized visa stamps that multiple countries recognize. 
 ```
 
 ### Private Claims (Your Custom Stamps)
-These are the special markings you and your team agree on. Like internal company badges or special clearances — they only matter to the systems that know about them.
+These are the special markings you and your team agree on. Like internal company badges or special clearances, they only matter to the systems that know about them.
 ```json
 {
   "userId": "12345",
@@ -85,17 +85,17 @@ These are the special markings you and your team agree on. Like internal company
 
 ---
 
-## The Issuer (`iss`) — Who Stamped Your Passport?
+## The Issuer (`iss`): Who Stamped Your Passport?
 
 The `iss` (issuer) claim is like looking at which country issued your passport. It tells you **who vouches for this person**.
 
 ### Why This Matters
 
-Back to our passport analogy: you wouldn't accept a passport from a random person claiming they're a country — you only trust passports from real governments. Same with JWTs.
+Back to our passport analogy: you wouldn't accept a passport from a random person claiming they're a country. You only trust passports from real governments. Same with JWTs.
 
 1. **Trust Verification**: You only accept "passports" from authorities you trust (like Google, Auth0, or your own auth server)
 2. **Multi-Provider Support**: Your app might accept passports from multiple countries (Google login, Microsoft login, your own login)
-3. **Security**: Prevents someone from using a valid JWT meant for a different service at your service — like trying to enter France with a US military ID
+3. **Security**: Prevents someone from using a valid JWT meant for a different service at your service (like trying to enter France with a US military ID)
 
 ### Real-World Example
 
@@ -129,7 +129,7 @@ In this example:
 5. If all checks pass → Access granted!
 ```
 
-It's like showing your passport at the airport. The agent doesn't need to call your home country — they can verify it right there because they have a list of trusted countries and know how to check the security features.
+It's like showing your passport at the airport. The agent doesn't need to call your home country. They can verify it right there because they have a list of trusted countries and know how to check the security features.
 
 ---
 
@@ -226,7 +226,7 @@ console.log(decoded);
 
 ## Where This Journey Started
 
-The JWT concepts in this document trace back to my bootcamp notes from 2021, when I first learned authentication and authorization. The "aha moment" of understanding bearer tokens and the complete authorization flow is captured in my [Backend, Auth & Cloud archives](../archives/backend-auth-cloud/README.md) — handwritten notes from when JWTs finally clicked.
+The JWT concepts in this document trace back to my bootcamp notes from 2021, when I first learned authentication and authorization. The "aha moment" of understanding bearer tokens and the complete authorization flow is captured in my [Backend, Auth & Cloud archives](../archives/backend-auth-cloud/README.md): handwritten notes from when JWTs finally clicked.
 
 ---
 

@@ -2,7 +2,7 @@
 
 _Who tests the tests? Mutants do._
 
-This is my exploration of mutation testing — a technique that injects bugs (mutations) into your code to verify your tests can actually catch them. Stryker is the mutation testing framework that brings this concept to JavaScript and TypeScript.
+This is my exploration of mutation testing: a technique that injects bugs (mutations) into your code to verify your tests can actually catch them. Stryker is the mutation testing framework that brings this concept to JavaScript and TypeScript.
 
 Part of my Curiosity Documentation series, where I break down tools by learning them from the ground up.
 
@@ -22,7 +22,7 @@ Code coverage tells you which lines your tests execute, but not whether those te
 
 Stryker uses a brilliant metaphor: **mutants**.
 
-Think of your codebase as the original DNA. Mutation testing creates copies of your code with tiny genetic mutations — changing a `>` to a `>=`, flipping a `true` to `false`, or removing a function call.
+Think of your codebase as the original DNA. Mutation testing creates copies of your code with tiny genetic mutations: changing a `>` to a `>=`, flipping a `true` to `false`, or removing a function call.
 
 Each mutation creates a **mutant** version of your code.
 
@@ -336,7 +336,7 @@ All mutants killed. Tests now verify:
 
 ## ⚙️ Performance Tips
 
-Mutation testing is **computationally expensive** — it runs your test suite once per mutant.
+Mutation testing is **computationally expensive**. It runs your test suite once per mutant.
 
 If you have 100 mutants and your test suite takes 10 seconds, mutation testing takes ~16 minutes.
 
@@ -933,15 +933,15 @@ Stryker caches results in `.stryker-tmp/` and only re-tests modified mutants.
 
 **What mutation testing taught me:**
 
-1. **Code coverage is necessary but not sufficient** — You can have 100% coverage and still miss bugs. Mutation testing reveals gaps.
+1. **Code coverage is necessary but not sufficient**. You can have 100% coverage and still miss bugs. Mutation testing reveals gaps.
 
-2. **Tests should verify behavior, not implementation** — Hard-coded expectations let mutants survive. Test formulas and logic, not specific values.
+2. **Tests should verify behavior, not implementation**. Hard-coded expectations let mutants survive. Test formulas and logic, not specific values.
 
-3. **Boundary conditions matter** — Most survived mutants involve `>` vs `>=`, `&&` vs `||`, or off-by-one errors.
+3. **Boundary conditions matter**. Most survived mutants involve `>` vs `>=`, `&&` vs `||`, or off-by-one errors.
 
-4. **Mutation testing is a diagnostic tool** — Use it to find weak tests, not as a daily CI check.
+4. **Mutation testing is a diagnostic tool**. Use it to find weak tests, not as a daily CI check.
 
-5. **Perfect mutation scores aren't the goal** — Aim for high scores on critical code. Accept lower scores on trivial code.
+5. **Perfect mutation scores aren't the goal**. Aim for high scores on critical code. Accept lower scores on trivial code.
 
 ---
 
