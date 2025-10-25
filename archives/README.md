@@ -44,6 +44,8 @@ The transition wasn't magic. It was hundreds of hours of:
 - Explaining concepts back to myself
 - Documenting what finally made it click
 
+**Every great chess player was once a beginner.** Every senior dev once struggled with for-loops. The difference is just documented hours.
+
 **These notebooks are proof that documentation isn't just for experts.** It's how you *become* one.
 
 ---
