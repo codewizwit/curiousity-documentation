@@ -41,7 +41,6 @@ If you've ever Googled something and wished the explanation actually made sense,
 
 | Topic | What's Inside |
 |-------|---------------|
-| **[📓 The Archives](./archives/README.md)** | My bootcamp notebooks from 2020-2021. **34 handwritten pages** from "What is a function?" to production apps. The "class thursday march 4" MongoDB breakthrough, algorithm revelations, and JavaScript event loop diagrams with question marks everywhere. Where my documentation habit started. |
 | **[🤝 Responsible AI](./responsible-ai/README.md)** | _No Human Left Behind._ Building AI that puts people first. The Developer-First Accountability Framework, human-in-the-loop patterns, and why human dignity is non-negotiable. Plus [LLM security & guardrails](./responsible-ai/llm/README.md). |
 | **[♿ Accessibility](./accessibility/README.md)** | Building for everyone, not just some. Semantic HTML, keyboard nav, screen readers, ARIA, and why universal design makes everything better. |
 | **[🏗️ Ancient Pyramids](./pyramids/README.md)** | The original full-stack architecture project. Geometry, measurement, and how ancient engineers achieved impossible precision. ASCII diagrams included. |
@@ -100,6 +99,7 @@ If you've ever Googled something and wished the explanation actually made sense,
 | Topic | What I'm Figuring Out |
 |-------|----------------------|
 | **[📘 TypeScript](./typescript/README.md)** | null vs undefined, async/await patterns, and type system fundamentals that make JavaScript better |
+| **[📓 The Archives](./archives/README.md)** | My bootcamp notebooks from 2020-2021. **34 handwritten pages** from "What is a function?" to production apps. The "class thursday march 4" MongoDB breakthrough, algorithm revelations, and JavaScript event loop diagrams with question marks everywhere. Where my documentation habit started. |
 
 ---
 
