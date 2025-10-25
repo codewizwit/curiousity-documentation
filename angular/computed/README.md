@@ -824,4 +824,6 @@ console.log(double());  // 240
 
 ---
 
-_From complex observable wiring to simple Excel-like formulas._
+_From complex observable wiring to simple Excel-like formulas._ 🌭
+
+← [Back to Angular](../README.md) | [Back to Home](../../README.md) | [Signals](../signals/README.md) | [Effect](../effect/README.md)

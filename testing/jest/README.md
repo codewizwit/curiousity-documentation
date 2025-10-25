@@ -183,4 +183,6 @@ Always `await` or `return` promises in tests, or they'll pass even when they fai
 
 ---
 
-_Testing shouldn't be painful. Jest makes it delightful._
+_Testing shouldn't be painful. Jest makes it delightful._ 🌭
+
+← [Back to Home](../../README.md) | [Cypress](../cypress/README.md) | [Code Coverage](../code-coverage/README.md)

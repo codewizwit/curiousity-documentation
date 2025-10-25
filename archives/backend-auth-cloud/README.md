@@ -1,4 +1,4 @@
-# Auth & Cloud: When Security Became Real — 2021
+# Auth & Cloud: When Security Became Real (2021)
 
 _The moment I understood that authentication isn't optional_
 
@@ -159,4 +159,6 @@ The backend concepts from these notes show up everywhere:
 
 ---
 
-_From 2021 bootcamp notes - Backend development & cloud deployment. Part of [The Archives](../README.md)._
+_From 2021 bootcamp notes: Backend development & cloud deployment. Part of [The Archives](../README.md)._ 🌭
+
+← [Back to Archives](../README.md) | [Back to Home](../../README.md) | [JWTs](../../jwts/README.md) | [AWS](../../aws/README.md)

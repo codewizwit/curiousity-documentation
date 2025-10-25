@@ -395,4 +395,6 @@ describe('Authenticated User Flow', () => {
 
 ---
 
-_Writing tests that actually help you ship with confidence._
+_Writing tests that actually help you ship with confidence._ 🌭
+
+← [Back to Home](../../README.md) | [Playwright](../playwright/README.md) | [Jest](../jest/README.md)

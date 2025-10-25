@@ -1,136 +1,140 @@
-# 🧭 Curiosity Documentation
+# 🌭 Curiosity Documentation
+_A living notebook where curiosity meets code._
 
-_A living notebook documenting the journey from bootcamp to production._
+**New here?** → Start with [The Archives](./archives/README.md) to see where this all began, or jump straight to [The Greatest Hits](#-start-here-the-greatest-hits).
 
-**Built by Alexandra Kelstrom** — a software engineer who puts people first. I am a documentation enthusiast and love to make documentation that is relatable, and simple to understand. I approach engineering with curiosity and empathy, breaking down complexity with metaphors and documenting the journey from confusion to clarity.
+Welcome to my curiosity lab: part experiment, part documentation binge, part "wait, how does that actually work?" moment.
 
-**This repo shows the full arc:** from handwritten bootcamp notebooks (2020-2021) learning "What is a function?" to production-level documentation on complex systems. Some topics come from building or debugging real projects. Others are rabbit holes worth exploring. From **bootcamp notes on JavaScript runtime and algorithms** to **responsible AI**, **accessibility**, **Angular signals**, **NestJS**, **Next.js**, **GitHub Actions**, **TypeScript**, **ancient pyramid engineering**, **pnpm**, **Nx**, testing with **Cypress**, **Playwright**, and **Jest**, and **JWTs**... If I wanted to understand how it really works, it's documented here.
+Every folder here started because I went down a rabbit hole I couldn't stop thinking about. From **handwritten bootcamp notebooks** (2020) trying to understand JavaScript's event loop, to production docs on **AWS Lambda**, **REST APIs**, and **responsible AI governance**. From **TypeScript brain-benders** to the **geometry behind ancient pyramids** (yes, really).
 
-The goal isn't to teach exhaustively; it's to capture the learning process — from confused beginner to confident engineer — in a searchable, reusable form.
+This is where I document until things make sense.
+It's not perfect, but it's honest, and usually a little weird (in the best way).
+
+**The throughline?** Five years of the same instinct: If I'm confused, I write it down. If I figure it out, I document it. If I build it, I explain it like I'm five.
 
 ---
 
-## 🧩 Why this exists
+## 🤓 Why This Exists
 
-I learn best by documenting what I figure out.
-Writing things down turns curiosity into clarity; and clarity into better code.
+Because writing is my debugging tool.
+Because documentation is how I think.
+And because curiosity is the best dev skill no one puts on their résumé.
 
-**This habit started in bootcamp** — filling notebooks with diagrams, questions, and "aha moments" to make sense of JavaScript closures, event loops, and Big O notation. That instinct never went away; it just evolved from handwritten notes to production documentation.
+**This habit started in bootcamp**: filling notebooks with diagrams, question marks in the margins, crossed-out explanations where I got it wrong. When async JavaScript finally clicked, I documented that moment. When MongoDB schema design made sense, I wrote it down. When JWTs stopped being magic, I captured the "aha."
 
-This repo captures that entire journey in public, so others can learn (or correct me) along the way.
+Five years later, I still do the same thing. Just with better tools (and legible handwriting, since I type now).
+
+This repo is learning in public. Mistakes documented. Confusion captured. Breakthroughs explained.
+
+If you've ever Googled something and wished the explanation was written by a human instead of a robot, welcome home.
 
 <div align="center">
   <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExdm01dTNwdGc4YTNqbmJwMmxxeGRsNWNoajhqanJ4bG53YXJsMXQ2MyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/N7aAkvk6lSpYoLaAEi/giphy.gif" alt="Why don't you explain this to me like I'm five" width="500">
   <p><em>My documentation philosophy in a nutshell.</em></p>
 </div>
 
-Every topic here is broken down with metaphors, relatable examples, and the kind of explanations that would make sense to your past self when you first encountered the concept. No gatekeeping. No assuming prior knowledge. Just clear, honest learning in public.
+---
+
+## 🧭 Topics of Obsession
+
+### 🎯 Start Here (The Greatest Hits)
+
+| Topic | What's Inside |
+|-------|---------------|
+| **[📓 The Archives](./archives/README.md)** | My bootcamp notebooks from 2020-2021. **34 handwritten pages** from "What is a function?" to production apps. The "class thursday march 4" MongoDB breakthrough, algorithm revelations, and JavaScript event loop diagrams with question marks everywhere. Where my documentation habbit started. |
+| **[🤝 Responsible AI](./responsible-ai/README.md)** | _No Human Left Behind._ Building AI that puts people first. The Developer-First Accountability Framework, human-in-the-loop patterns, and why human dignity is non-negotiable. Plus [LLM security & guardrails](./responsible-ai/llm/README.md). |
+| **[♿ Accessibility](./accessibility/README.md)** | Building for everyone, not just some. Semantic HTML, keyboard nav, screen readers, ARIA, and why universal design makes everything better. |
+| **[🏗️ Ancient Pyramids](./pyramids/README.md)** | The original full-stack architecture project. Geometry, measurement, and how ancient engineers achieved impossible precision. ASCII diagrams included. |
+| **[📘 TypeScript: null vs undefined](./typescript/null-vs-undefined/README.md)** | The toilet paper metaphor that finally made it stick. Includes memes. |
 
 ---
 
-## ⭐ Featured Deep Dives
+### 💻 Frontend & Frameworks
 
-Here are some of the most detailed explorations in this repo — great starting points if you're new here:
-
-**[📓 The Archives: Bootcamp Notebooks](./archives/README.md)** — _Where documentation started._ My handwritten notes from learning to code in 2020-2021. **34 pages** capturing the journey from "What is a function?" to building production applications. Breakthroughs, confusion, and the messy middle documented in real-time. See where the instinct to write things down until they make sense began.
-
-**[🤝 Responsible AI](./responsible-ai/README.md)** — _No Human Left Behind._ A manifesto and practical framework for building AI that puts people first. Covers the Developer-First Accountability Framework, critical questions for AI adoption, and why human dignity must be non-negotiable in our systems. Includes a deep dive on [Building with LLMs](./responsible-ai/llm/README.md) with security patterns, guardrails, and human-in-the-loop implementation.
-
-**[♿ Web Accessibility](./accessibility/README.md)** — Building for everyone, not just some. Practical patterns for semantic HTML, keyboard navigation, screen readers, ARIA, color contrast, and accessible forms. Universal design benefits everyone.
-
-**[⚡ Angular Modern Reactivity](./angular/README.md)** — Understanding signals, computed, and effect with the whiteboard metaphor. A complete breakdown of Angular's new reactive primitives and when to use each one.
-
-**[⚙️ GitHub Actions](./github-actions/README.md)** — Dynamic E2E testing, reusable workflows, secrets encryption with libsodium, and writing coverage reports to release notes. Real-world CI/CD patterns.
-
-**[🏗️ Ancient Pyramids](./pyramids/README.md)** — How ancient Egyptian engineers achieved impossible precision through methodical design, geometry, and measurement. ASCII diagrams included. (Yes, this is a software engineering repo—but the principles are timeless.)
-
-**[📘 TypeScript: null vs undefined](./typescript/null-vs-undefined/README.md)** — The toilet paper metaphor that finally makes the difference stick. Includes memes.
+| Topic | What I'm Figuring Out |
+|-------|----------------------|
+| **[⚡ Angular](./angular/README.md)** | Signals, computed, effect: the whiteboard metaphor for Angular's new reactivity system |
+| **[⚛️ React](./react/README.md)** | Components, hooks, and the LEGO metaphor. Building UIs one block at a time |
+| **[🚀 Next.js](./nextjs/README.md)** | The restaurant kitchen metaphor for SSR, SSG, and rendering modes |
+| **[🏗️ Angular + Nx](./angular-nx/README.md)** | Micro-frontends, module federation, and taming monorepos |
 
 ---
 
-## 📁 Structure
+### 🔧 Backend & Infrastructure
 
-### Core Topics
+| Topic | What I'm Figuring Out |
+|-------|----------------------|
+| **[🏗️ NestJS](./nestjs/README.md)** | Angular's architecture for the backend. Dependency injection meets Node.js |
+| **[☁️ AWS](./aws/README.md)** | Cloud computing that scales. [Lambda](./aws/lambda/README.md) (serverless functions), [IAM](./aws/iam/README.md) (who can do what), [CloudFormation](./aws/cloudformation/README.md) (infrastructure as code) |
+| **[🌐 REST APIs](./rest-apis/README.md)** | Designing interfaces that make sense. Resources, HTTP methods, status codes, and why nouns > verbs |
+| **[🍃 MongoDB](./mongodb/README.md)** | The filing cabinet vs storage bins metaphor. NoSQL, schemas, and when to embed vs reference |
+| **[🔐 JWTs](./jwts/README.md)** | Decoding, verifying, and the passport metaphor for understanding bearer tokens |
 
-**[📦 pnpm](./pnpm/README.md)**
-Dependency management, workspace patterns, and Module Federation with Nx.
+---
 
-**[📦 npm](./npm/README.md)**
-Guide on how to publish to npm using [human-in-the-loop](https://www.npmjs.com/package/@human-in-the-loop/cli) as an example. 
+### 🛠️ DevOps & Tooling
 
-**[⚙️ GitHub Actions](./github-actions/README.md)**
-Reusable workflows, dynamic E2E testing, @actions/core, secrets encryption, and writing coverage to release notes.
+| Topic | What I'm Figuring Out |
+|-------|----------------------|
+| **[⚙️ GitHub Actions](./github-actions/README.md)** | Reusable workflows, coverage uploads, secrets encryption, and artifact sorcery |
+| **[📦 pnpm](./pnpm/README.md)** | Workspace linking, hoisting, and why `node_modules` deserves therapy |
+| **[📦 npm](./npm/README.md)** | Publishing packages without breaking prod (featuring human-in-the-loop) |
 
-**[🏗️ Angular + Nx](./angular-nx/README.md)**
-Monorepo architecture, affected commands, computation caching, and dependency graphs.
+---
 
-**[⚡ Angular Modern Reactivity](./angular/README.md)**
-Understanding signals, computed, and effect — Angular's new reactivity system explained with the whiteboard metaphor.
+### 🧪 Testing & Quality
 
-**[⚛️ React](./react/README.md)**
-Building user interfaces with components, hooks, and declarative thinking. The LEGO metaphor for composable UI.
+| Topic | What I'm Figuring Out |
+|-------|----------------------|
+| **[🧪 Cypress](./testing/cypress/README.md)** | E2E testing patterns and passing secrets from GitHub Actions |
+| **[🎭 Playwright](./testing/playwright/README.md)** | Model-driven development, AI test generation, and intelligent automation |
+| **[🃏 Jest](./testing/jest/README.md)** | Unit testing, mocking strategies, and actually understanding coverage |
+| **[📊 Code Coverage](./testing/code-coverage/README.md)** | What the metrics mean and when 100% is a trap |
+| **[🧬 Mutation Testing](./testing/stryker/README.md)** | Testing the tests. Who tests the tests? Mutants do. |
 
-**[⚛️ Next.js](./nextjs/README.md)**
-The full-stack React framework explained with the restaurant kitchen metaphor (from rendering modes to API routes).
+---
 
-**[🏗️ NestJS](./nestjs/README.md)**
-Angular's architecture for the backend — bringing structure, scalability, and sanity to Node.js with decorators, dependency injection, and modules.
+### 📘 Languages & Fundamentals
 
-**[📘 TypeScript](./typescript/README.md)**
-Deep dives into tricky TypeScript concepts with memorable metaphors: null vs undefined (toilet paper), async/await (hot dog stand), and more.
+| Topic | What I'm Figuring Out |
+|-------|----------------------|
+| **[📘 TypeScript](./typescript/README.md)** | null vs undefined (toilet paper), async/await (hot dog stand), and brain-benders with types |
 
-**[🍃 MongoDB](./mongodb/README.md)**
-Quick reference for getting started with MongoDB — CRUD operations, query operators, indexes, and aggregations. Learning from excellent documentation.
+---
 
-**[☁️ AWS (Amazon Web Services)](./aws/README.md)**
-Cloud computing for applications that scale. Deep dives into [Lambda (serverless functions)](./aws/lambda/README.md), [IAM (identity & access management)](./aws/iam/README.md), and [CloudFormation (infrastructure as code)](./aws/cloudformation/README.md).
+## 🔍 How I Actually Use This
 
-**[🌐 REST APIs](./rest-apis/README.md)**
-Designing interfaces that make sense — resources, HTTP methods, status codes, authentication, and API best practices.
+- **Reference when I forget**: "Wait, how do Lambda cold starts work again?" → search this repo, find my own explanation, remember why I wrote it that way
+- **Onboarding teammates**: "Here's how GitHub Actions secrets work" → link to docs instead of explaining for the 5th time
+- **Debugging amnesia**: Past-me documented the solution. Present-me just needs to remember where I put it
+- **Proof I'm learning**: Tracking how my understanding evolved from "what's a closure?" (2020 notebooks) to "here's how to optimize serverless architecture" (production docs)
+- **Interview prep**: Turns out documenting everything you learn is the best study guide you'll ever make
 
-### People-First Development
+Basically: if I took the time to figure it out, I document it. Future-me always thanks past-me.
 
-**[♿ Web Accessibility](./accessibility/README.md)**
-Building for everyone: semantic HTML, keyboard navigation, screen readers, ARIA, color contrast, and accessible forms. Equity in practice.
+---
 
-### Responsible AI
+## 🚀 Real Projects (Where This Gets Used)
 
-**[🤝 Responsible AI](./responsible-ai/README.md)**
-No Human Left Behind. A manifesto and framework for building AI that enhances human creativity without replacing human judgment — with the Developer-First Accountability Framework and practical implementation guides.
+These docs aren't just theoretical. They're built from real production work, informing how I build and ship software.
 
-- **[Building with LLMs](./responsible-ai/llm/README.md)** - Security, guardrails, human-in-the-loop patterns, evaluation, and cost management for production LLM systems.
+**[Human in the Loop](https://github.com/codewizwit/human-in-the-loop)**
 
-### The Learning Journey
+A production toolkit for centralized AI governance, bringing order to scattered prompts, agents, and AI tools across teams.
 
-**[📓 The Archives](./archives/README.md)**
-My handwritten bootcamp notes from learning to code (2020-2021) — **34 pages** capturing the journey from "What is a function?" to building production applications. MongoDB breakthroughs, algorithm complexity revelations, JavaScript runtime deep dives, and the moments when security and deployment became real. Where documentation started: in curiosity and the need to write things down to understand them.
+**What it does:** CLI for discovering, installing, and managing versioned AI prompts and agents with built-in quality controls and adoption tracking.
 
-### Beyond Code
+**Published:** [@human-in-the-loop/cli](https://www.npmjs.com/package/@human-in-the-loop/cli) on npm
 
-**[🏗️ Ancient Pyramids](./pyramids/README.md)**
-How ancient builders achieved impossible precision through math, measurement, and methodical design, with ASCII diagrams showing the geometry.
+**Technologies from this repo:**
+- TypeScript (strict mode)
+- Nx monorepo architecture
+- pnpm workspace management
+- npm publishing pipeline
+- Jest for testing
+- GitHub Actions for CI/CD
 
-### Testing
-
-**[🧪 Cypress](./testing/cypress/README.md)**
-E2E testing patterns and passing secrets from GitHub Actions to Cypress.
-
-**[🎭 Playwright](./testing/playwright/README.md)**
-Model-Driven Development (MDD), AI-powered test generation with agents, and intelligent test automation.
-
-**[🃏 Jest](./testing/jest/README.md)**
-Unit testing, mocking strategies, and TypeScript integration.
-
-**[📊 Code Coverage](./testing/code-coverage/README.md)**
-Understanding coverage metrics, best practices, and pragmatic thresholds.
-
-**[🧬 Mutation Testing](./testing/stryker/README.md)**
-Testing the tests with Stryker — injecting bugs to verify your test suite actually catches them. Who tests the tests? Mutants do.
-
-### Security & Auth
-
-**[🔐 JWTs](./jwts/README.md)**
-Understanding JSON Web Tokens, claims, issuers, with the passport metaphor.
+This project lives the concepts documented here: Nx monorepos, pnpm workspaces, npm publishing, and the [Responsible AI](./responsible-ai/README.md) principles through its Developer-First Accountability Framework.
 
 ---
 
@@ -221,62 +225,15 @@ curiosity-documentation/
 
 ---
 
-## 🚀 Projects in Practice
+## 🪩 Credits
 
-### [Human in the Loop](https://github.com/codewizwit/human-in-the-loop)
+Written by a small human with a big appetite for learning.
+Powered by snacks, curiosity, and the occasional assist from modern AI tools.
 
-A production toolkit for centralized AI governance- bringing order to scattered prompts, agents, and AI tools across teams.
+Created and maintained by **Alexandra Kelstrom** ([@codewizwit](https://github.com/codewizwit)) 🌭
 
-**What it does:** CLI for discovering, installing, and managing versioned AI prompts and agents with built-in quality controls and adoption tracking.
-
-**Published:** [@human-in-the-loop/cli](https://www.npmjs.com/package/@human-in-the-loop/cli) on npm
-
-**Technologies from this repo:**
-- TypeScript (strict mode)
-- Nx monorepo architecture
-- pnpm workspace management
-- npm publishing pipeline
-- Jest for testing
-- GitHub Actions for CI/CD
-
-This project demonstrates the concepts documented here in a real-world, open-source package, and embodies the [Responsible AI](./responsible-ai/README.md) principles through its Developer-First Accountability Framework.
+While this is primarily a personal archive, thoughtful issues or discussions are welcome, especially if you spot something worth clarifying or expanding.
 
 ---
 
-## 🧠 Themes
-
-- **Learning in public** — From bootcamp notebooks to production docs
-- **Responsible AI & human-centered technology**
-- **Accessibility & inclusive design**
-- **Documentation as a thinking tool** — Writing to understand, not just to explain
-- Developer Experience & tooling clarity
-- Testing and CI/CD pipelines
-- Dependency management
-- Build performance
-- Architecture patterns that make engineers faster
-- Authentication and security fundamentals
-
----
-
-## 🔍 How I use this
-
-- As a personal reference when solving similar problems later  
-- To share context with teammates  
-- To document discoveries from debugging or projects  
-- To track how my understanding evolves over time
-
----
-
-## ✍️ About
-
-Created and maintained by **Alexandra Kelstrom** — [@codewizwit](https://github.com/codewizwit)  
-
----
-
-### 💡 Contributions
-
-While this is primarily a personal archive, thoughtful issues or discussions are welcome — especially if you spot something worth clarifying or expanding.
-
----
-
-> _Build with care. Ship with purpose._
+> _"Document your curiosity. The rest is just syntax."_ 🌭

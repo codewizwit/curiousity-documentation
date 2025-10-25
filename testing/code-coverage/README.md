@@ -283,4 +283,6 @@ Don't let perfect be the enemy of good. Start measuring, start improving.
 
 ---
 
-_Coverage is a flashlight, not a scoreboard. Use it to find what's dark, not to brag about the brightness._
+_Coverage is a flashlight, not a scoreboard. Use it to find what's dark, not to brag about the brightness._ 🌭
+
+← [Back to Home](../../README.md) | [Jest](../jest/README.md) | [Stryker (Mutation Testing)](../stryker/README.md)

@@ -1,4 +1,4 @@
-# Algorithms & Problem Solving: When Efficiency Started to Matter — 2020
+# Algorithms & Problem Solving: When Efficiency Started to Matter (2020)
 
 _The moment I understood why "it works" isn't always good enough_
 
@@ -171,4 +171,6 @@ The algorithm thinking from these notes shows up everywhere:
 
 ---
 
-_From 2020 bootcamp notes - Computer Science & Algorithms module. Part of [The Archives](../README.md)._
+_From 2020 bootcamp notes: Computer Science & Algorithms module. Part of [The Archives](../README.md)._ 🌭
+
+← [Back to Archives](../README.md) | [Back to Home](../../README.md) | [JavaScript](../javascript/README.md)

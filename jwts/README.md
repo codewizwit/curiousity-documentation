@@ -230,4 +230,6 @@ The JWT concepts in this document trace back to my bootcamp notes from 2021, whe
 
 ---
 
-_Understanding the tokens that power modern authentication._
+_Understanding the tokens that power modern authentication._ 🌭
+
+← [Back to Home](../README.md) | [REST APIs](../rest-apis/README.md) | [Archives: Auth & Cloud](../archives/backend-auth-cloud/README.md)

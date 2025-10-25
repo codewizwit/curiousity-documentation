@@ -285,4 +285,6 @@ aws logs tail /aws/lambda/myFunction --follow
 
 ---
 
-_Renting the cloud, one service at a time._
+_Renting the cloud, one service at a time._ 🌭
+
+← [Back to Home](../README.md) | [Lambda](./lambda/README.md) | [IAM](./iam/README.md) | [CloudFormation](./cloudformation/README.md)

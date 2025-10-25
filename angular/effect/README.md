@@ -795,4 +795,6 @@ effect(() => console.log(a() + b()));      // ✅ For actions
 
 ---
 
-_From manual subscriptions and cleanup to automatic reactive side effects._
+_From manual subscriptions and cleanup to automatic reactive side effects._ 🌭
+
+← [Back to Angular](../README.md) | [Back to Home](../../README.md) | [Signals](../signals/README.md) | [Computed](../computed/README.md)

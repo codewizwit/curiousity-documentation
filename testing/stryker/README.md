@@ -956,4 +956,6 @@ Stryker caches results in `.stryker-tmp/` and only re-tests modified mutants.
 
 ---
 
-_Who tests the tests? Now you do — with mutants._
+_Who tests the tests? Now you do, with mutants._ 🌭
+
+← [Back to Home](../../README.md) | [Jest](../jest/README.md) | [Code Coverage](../code-coverage/README.md)

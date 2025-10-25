@@ -639,4 +639,6 @@ const obs$ = toObservable(signal);
 
 ---
 
-_From streams and subscriptions to sticky notes and direct reads._
+_From streams and subscriptions to sticky notes and direct reads._ 🌭
+
+← [Back to Angular](../README.md) | [Back to Home](../../README.md) | [Computed](../computed/README.md) | [Effect](../effect/README.md)

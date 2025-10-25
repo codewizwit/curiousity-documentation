@@ -420,3 +420,9 @@ npm view @human-in-the-loop/cli
 # Install globally to test
 npm install -g @human-in-the-loop/cli
 ```
+
+---
+
+_Publishing packages without breaking prod. Featuring human-in-the-loop._ 🌭
+
+← [Back to Home](../README.md) | [pnpm](../pnpm/README.md) | [GitHub Actions](../github-actions/README.md)

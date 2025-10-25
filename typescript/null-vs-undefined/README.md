@@ -490,4 +490,6 @@ type Maybe<T> = T | null | undefined;
 
 ---
 
-_Understanding the difference between "no toilet paper" and "no roll on the holder" — one bug at a time._
+_Understanding the difference between "no toilet paper" and "no roll on the holder," one bug at a time._ 🌭
+
+← [Back to Home](../../README.md) | [TypeScript Main](../README.md) | [Async/Await](../async-await/README.md)

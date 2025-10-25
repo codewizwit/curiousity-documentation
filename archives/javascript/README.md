@@ -1,4 +1,4 @@
-# JavaScript Runtime: When I Finally Understood the Event Loop — 2020
+# JavaScript Runtime: When I Finally Understood the Event Loop (2020)
 
 _The moment asynchronous code stopped being magic_
 
@@ -126,7 +126,7 @@ Notes on functional programming concepts compared to object-oriented programming
 Exploring how functions can be treated as first-class citizens, immutability, and pure functions versus object-based patterns.
 
 **What I notice now:**
-**JavaScript is multi-paradigm by design.** OOP organizes code around objects with state and methods. Functional programming organizes code around pure functions and immutable data. JavaScript supports both — and mixing them intelligently is what makes modern JavaScript powerful. Understanding when to use `.map()` vs a for loop, when to favor immutability vs stateful objects, made me a more flexible developer.
+**JavaScript is multi-paradigm by design.** OOP organizes code around objects with state and methods. Functional programming organizes code around pure functions and immutable data. JavaScript supports both, and mixing them intelligently is what makes modern JavaScript powerful. Understanding when to use `.map()` vs a for loop, when to favor immutability vs stateful objects, made me a more flexible developer.
 
 ---
 
@@ -139,7 +139,7 @@ Notes on JavaScript closures - how functions can "remember" and access variables
 Understanding lexical scope and how closures enable patterns like private variables and factory functions.
 
 **What I notice now:**
-**Closures are about memory, not magic.** When a function is created, it captures a reference to its surrounding scope. This enables powerful patterns: module pattern (private state), callbacks that remember context, and functional programming techniques. Every JavaScript developer uses closures constantly (every event handler, every callback) — understanding them explicitly transformed debugging from "why doesn't this work?" to "oh, the closure captured the wrong variable."
+**Closures are about memory, not magic.** When a function is created, it captures a reference to its surrounding scope. This enables powerful patterns: module pattern (private state), callbacks that remember context, and functional programming techniques. Every JavaScript developer uses closures constantly (every event handler, every callback). Understanding them explicitly transformed debugging from "why doesn't this work?" to "oh, the closure captured the wrong variable."
 
 ---
 
@@ -152,7 +152,7 @@ Notes on event delegation - attaching a single event listener to a parent elemen
 Understanding how events bubble up through the DOM and how to use this for more efficient event handling.
 
 **What I notice now:**
-**Event delegation is performance optimization through understanding the DOM.** Instead of attaching 100 click listeners to 100 buttons, attach one listener to their parent and check `event.target` to see which child triggered it. This works because events bubble up from child to parent. Understanding event delegation prevented performance issues in dynamic UIs where elements are constantly added/removed — and made frameworks like React's synthetic event system finally make sense.
+**Event delegation is performance optimization through understanding the DOM.** Instead of attaching 100 click listeners to 100 buttons, attach one listener to their parent and check `event.target` to see which child triggered it. This works because events bubble up from child to parent. Understanding event delegation prevented performance issues in dynamic UIs where elements are constantly added/removed, and made frameworks like React's synthetic event system finally make sense.
 
 ---
 
@@ -167,13 +167,13 @@ Questions about JavaScript module systems:
 - External dependencies and package management
 
 **What I notice now:**
-**Modules are how JavaScript scales beyond one file.** CommonJS (`require`/`module.exports`) came first for Node.js. ES6 modules (`import`/`export`) are the modern standard. Understanding both was essential because legacy code uses CommonJS while new code uses ES6 modules. The key insight: modules have their own scope — no more global namespace pollution. Each file is isolated, explicitly exporting what others can use. This makes code maintainable, testable, and prevents the "everything depends on everything" nightmare.
+**Modules are how JavaScript scales beyond one file.** CommonJS (`require`/`module.exports`) came first for Node.js. ES6 modules (`import`/`export`) are the modern standard. Understanding both was essential because legacy code uses CommonJS while new code uses ES6 modules. The key insight: modules have their own scope, with no more global namespace pollution. Each file is isolated, explicitly exporting what others can use. This makes code maintainable, testable, and prevents the "everything depends on everything" nightmare.
 
 ---
 
 ## The Aha Moment
 
-**Page 2 — The Big Picture Event Loop Diagram**
+**Page 2: The Big Picture Event Loop Diagram**
 
 The breakthrough came from this visual:
 
@@ -221,7 +221,7 @@ The chef (JavaScript) is single-threaded, but the kitchen (browser) has multiple
 
 This is why JavaScript can handle async operations without threads: it delegates the waiting to the browser, then processes results one at a time."
 
-**The restaurant metaphor started here** — trying to explain how single-threaded code handles concurrency.
+**The restaurant metaphor started here**, trying to explain how single-threaded code handles concurrency.
 
 ---
 
@@ -256,4 +256,6 @@ The JavaScript runtime concepts from these notes show up everywhere:
 
 ---
 
-_From 2020 bootcamp notes - JavaScript runtime & fundamentals. Part of [The Archives](../README.md)._
+_From 2020 bootcamp notes: JavaScript runtime & fundamentals. Part of [The Archives](../README.md)._ 🌭
+
+← [Back to Archives](../README.md) | [Back to Home](../../README.md) | [TypeScript](../../typescript/README.md)

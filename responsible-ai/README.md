@@ -4,15 +4,15 @@ _No Human Left Behind._
 
 ## AI Is Power and Power Demands Accountability
 
-AI is not just code. It's power. The kind that shapes economies, rewrites culture, and redraws the boundaries of human life. It's already transforming how we learn, create, work, and connect. And whether we admit it or not, it's also deciding who gets to thrive — and who's left behind.
+AI is not just code. It's power. The kind that shapes economies, rewrites culture, and redraws the boundaries of human life. It's already transforming how we learn, create, work, and connect. And whether we admit it or not, it's also deciding who gets to thrive and who's left behind.
 
-The AI conversation is obsessed with speed, scale, and capability. We brag about tokens processed, models trained, products shipped. But **metrics don't tell the whole story** — they'll tell you how fast you're moving, not whether you're sprinting off a cliff.
+The AI conversation is obsessed with speed, scale, and capability. We brag about tokens processed, models trained, products shipped. But **metrics don't tell the whole story**: they'll tell you how fast you're moving, not whether you're sprinting off a cliff.
 
 This isn't a technical bug. **It's a values bug we keep shipping to production.**
 
-This section documents principles and practices for building AI that puts people first — grounded in the belief that human dignity is not negotiable, and that those closest to the impact must have a seat at the table shaping the future.
+This section documents principles and practices for building AI that puts people first, grounded in the belief that human dignity is not negotiable, and that those closest to the impact must have a seat at the table shaping the future.
 
-**📖 Implementation Guide:** For practical patterns on building with LLMs responsibly, see [Building with LLMs: Responsible Development](./llm/README.md) — covering security, guardrails, human-in-the-loop patterns, and production best practices.
+**📖 Implementation Guide:** For practical patterns on building with LLMs responsibly, see [Building with LLMs: Responsible Development](./llm/README.md), covering security, guardrails, human-in-the-loop patterns, and production best practices.
 
 ---
 
@@ -30,7 +30,7 @@ This section documents principles and practices for building AI that puts people
 
 **We believe progress is meaningless if it tramples people on the way.**
 
-And we believe those closest to the impact — devs, designers, educators, workers, artists, and communities — must have a seat at the table shaping the future.
+And we believe those closest to the impact (devs, designers, educators, workers, artists, and communities) must have a seat at the table shaping the future.
 
 ---
 
@@ -68,7 +68,7 @@ The [Human in the Loop](https://github.com/codewizwit/human-in-the-loop) project
 - Tools that make developers feel deskilled over time
 - Black-box recommendations with no path to understanding
 
-**The Metaphor:** Think of AI as a sous chef, not a microwave. A sous chef teaches you techniques while helping you cook. A microwave just heats things up — fast, but you learn nothing.
+**The Metaphor:** Think of AI as a sous chef, not a microwave. A sous chef teaches you techniques while helping you cook. A microwave just heats things up: fast, but you learn nothing.
 
 ---
 
@@ -86,7 +86,7 @@ The [Human in the Loop](https://github.com/codewizwit/human-in-the-loop) project
 - Unequal access to AI features based on role or seniority
 - No clear ownership when AI suggestions introduce bugs or security issues
 
-**The Metaphor:** AI tools should be like good infrastructure — everyone benefits, regardless of experience level. Bad AI tools are like insider knowledge — they create a two-tier system.
+**The Metaphor:** AI tools should be like good infrastructure: everyone benefits, regardless of experience level. Bad AI tools are like insider knowledge: they create a two-tier system.
 
 ---
 
@@ -124,7 +124,7 @@ The [Human in the Loop](https://github.com/codewizwit/human-in-the-loop) project
 - Can't disable AI features when they're not helpful
 - Tools oversell capabilities or hide limitations
 
-**The Metaphor:** AI should be like autocorrect with clear underlines and explanations — visible, explainable, and easily dismissed. Not like autocorrect that silently changes words without telling you.
+**The Metaphor:** AI should be like autocorrect with clear underlines and explanations: visible, explainable, and easily dismissed. Not like autocorrect that silently changes words without telling you.
 
 ---
 
@@ -218,7 +218,7 @@ Published as [@human-in-the-loop/cli](https://www.npmjs.com/package/@human-in-th
 
 **[Dispatch №13: A Manifesto for Responsible AI](https://codewizwit.medium.com/dispatch-1-a-manifesto-for-responsible-ai-014792959831)**
 
-A series within codewizwit that refuses to accept a future written without us. Exploring how AI, ethics, and engineering intersect — and how we can build a future where technology serves people, not the other way around.
+A series within codewizwit that refuses to accept a future written without us. Exploring how AI, ethics, and engineering intersect, and how we can build a future where technology serves people, not the other way around.
 
 **Tagline:** _No Human Left Behind._
 
@@ -226,7 +226,7 @@ A series within codewizwit that refuses to accept a future written without us. E
 
 **[Human in the Loop](https://github.com/codewizwit/human-in-the-loop)** | [@human-in-the-loop/cli on npm](https://www.npmjs.com/package/@human-in-the-loop/cli)
 
-The open-source toolkit implementing these principles in practice — centralized governance for AI productivity tools with built-in accountability.
+The open-source toolkit implementing these principles in practice: centralized governance for AI productivity tools with built-in accountability.
 
 **[ACCOUNTABILITY.md](https://github.com/codewizwit/human-in-the-loop/blob/main/ACCOUNTABILITY.md)**
 
@@ -252,7 +252,7 @@ The best AI tools:
 - Preserve equity, not create insider advantages
 - Earn trust through transparency, not demand it through hype
 
-> **"AI should be a rising tide that lifts all boats — not a yacht that leaves some behind."**
+> **"AI should be a rising tide that lifts all boats, not a yacht that leaves some behind."**
 
 This work will be messy. It will demand courage, collaboration, and humility. But it's work worth doing.
 
@@ -260,4 +260,6 @@ Let's build technology that serves people. Let's build systems worthy of our tru
 
 ---
 
-_AI is not destiny. It's the sum of our decisions._
+_AI is not destiny. It's the sum of our decisions._ 🌭
+
+← [Back to Home](../README.md) | [Accessibility](../accessibility/README.md) | [Human in the Loop Project](https://github.com/codewizwit/human-in-the-loop)

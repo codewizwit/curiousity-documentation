@@ -129,4 +129,6 @@ Learning JWT authentication and AWS cloud deployment. Understanding bearer token
 
 ---
 
-_From notebooks to production — the same curiosity, different tools._
+_From notebooks to production: the same curiosity, different tools._ 🌭
+
+← [Back to Home](../README.md) | [JavaScript](./javascript/README.md) | [MongoDB Journey](./mongodb-learning-journey/README.md)

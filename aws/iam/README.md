@@ -456,4 +456,6 @@ aws sts assume-role \
 
 ---
 
-_Securing AWS, one policy at a time._
+_Securing AWS, one policy at a time._ 🌭
+
+← [Back to AWS](../README.md) | [Back to Home](../../README.md) | [Lambda](../lambda/README.md)

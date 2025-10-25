@@ -805,4 +805,6 @@ my-next-app/
 
 ---
 
-_From client-only React apps to production-ready, SEO-friendly, full-stack applications — Next.js makes it feel obvious._
+_From client-only React apps to production-ready, SEO-friendly, full-stack applications: Next.js makes it feel obvious._ 🌭
+
+← [Back to Home](../README.md) | [React](../react/README.md) | [NestJS](../nestjs/README.md)

@@ -522,4 +522,6 @@ describe('Users API', () => {
 
 ---
 
-_Designing interfaces one resource at a time._
+_Designing interfaces one resource at a time._ 🌭
+
+← [Back to Home](../README.md) | [JWTs](../jwts/README.md) | [NestJS](../nestjs/README.md)

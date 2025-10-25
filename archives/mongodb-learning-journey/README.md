@@ -1,4 +1,4 @@
-# MongoDB: When Tables Stopped Making Sense — 2020
+# MongoDB: When Tables Stopped Making Sense (2020)
 
 _The moment I understood why "not everything needs to be normalized"_
 
@@ -191,4 +191,6 @@ The instinct to ask "WHEN would you use this?" started in these pages.
 
 ---
 
-_From March 2020 bootcamp notes - NoSQL/MongoDB module. Part of [The Archives](../README.md)._
+_From March 2020 bootcamp notes: NoSQL/MongoDB module. Part of [The Archives](../README.md)._ 🌭
+
+← [Back to Archives](../README.md) | [Back to Home](../../README.md) | [MongoDB Quick Reference](../../mongodb/README.md)

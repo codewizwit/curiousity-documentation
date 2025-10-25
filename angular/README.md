@@ -190,4 +190,6 @@ angular/
 
 ---
 
-_Making reactivity obvious: From streams and subscriptions to signals and sticky notes._
+_Making reactivity obvious: From streams and subscriptions to signals and sticky notes._ 🌭
+
+← [Back to Home](../README.md) | [Signals](./signals/README.md) | [Computed](./computed/README.md) | [Effect](./effect/README.md)

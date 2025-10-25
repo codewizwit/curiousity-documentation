@@ -3,7 +3,7 @@
 
 ## 🧭 Overview
 
-This document outlines the proposal to migrate from `npm` to `pnpm` in our Nx monorepo environment, which uses Angular, TypeScript, and Module Federation. The main goal is to improve dependency isolation, optimize build times, reduce CI/CD cost, and prepare for scalable multi-team architecture.
+This document outlines the proposal to migrate from `npm` to `pnpm` in an Nx monorepo environment, which uses Angular, TypeScript, and Module Federation. The main goal is to improve dependency isolation, optimize build times, reduce CI/CD cost, and prepare for scalable multi-team architecture.
 
 ---
 
@@ -125,4 +125,6 @@ Reference: [Nx MF Docs](https://nx.dev/packages/angular/documents/module-federat
 
 ---
 
-**Start with one app and shared lib to validate the impact.**
+_Package management that doesn't duplicate the world. Workspace linking, hoisting, and why node_modules deserves therapy._ 🌭
+
+← [Back to Home](../README.md) | [npm](../npm/README.md) | [Angular + Nx](../angular-nx/README.md)

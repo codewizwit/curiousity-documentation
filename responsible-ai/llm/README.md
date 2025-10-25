@@ -1014,4 +1014,6 @@ The goal isn't to avoid using LLMs. It's to use them in ways that are safe, reli
 
 ---
 
-_Building with LLMs: Where innovation meets accountability._
+_Building with LLMs: Where innovation meets accountability._ 🌭
+
+← [Back to Responsible AI](../README.md) | [Back to Home](../../README.md) | [Human in the Loop](https://github.com/codewizwit/human-in-the-loop)

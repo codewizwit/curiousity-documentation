@@ -515,4 +515,6 @@ on:
 
 ---
 
-_Building workflows that are powerful, reusable, and maintainable._
+_Building workflows that are powerful, reusable, and maintainable._ 🌭
+
+← [Back to Home](../README.md) | [pnpm](../pnpm/README.md) | [npm](../npm/README.md)

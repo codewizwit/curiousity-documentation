@@ -1,6 +1,6 @@
 # MongoDB: From Relational Rows to Flexible Documents
 
-This is my field guide to MongoDB — a NoSQL database that trades rigid tables for flexible JSON-like documents. It's part of my Curiosity Documentation series: short notes I write to learn tools from the ground up.
+This is my field guide to MongoDB, a NoSQL database that trades rigid tables for flexible JSON-like documents. It's part of my Curiosity Documentation series: short notes I write to learn tools from the ground up.
 
 MongoDB's documentation is genuinely excellent at making complex database concepts feel approachable. These are my notes from exploring it.
 
@@ -512,4 +512,8 @@ Want to see where I first learned MongoDB? Check out [my bootcamp notes from Mar
 **Goal:** Keep exploring how MongoDB's documentation communicates these concepts clearly. The docs are a great example of developer education that feels empowering, not intimidating.
 
 ---
+
+_Where tables became collections and "just duplicate the data" became valid advice._ 🌭
+
+← [Back to Home](../README.md) | [Archives: MongoDB Journey](../archives/mongodb-learning-journey/README.md) | [REST APIs](../rest-apis/README.md)
 

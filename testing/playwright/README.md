@@ -491,4 +491,6 @@ npx playwright test --headed --slowMo=1000
 
 ---
 
-_Testing web apps through intelligent test generation and AI-powered automation._
+_Testing web apps through intelligent test generation and AI-powered automation._ 🌭
+
+← [Back to Home](../../README.md) | [Cypress](../cypress/README.md) | [Jest](../jest/README.md)

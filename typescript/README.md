@@ -86,4 +86,6 @@ Topics I'm planning to explore:
 
 ---
 
-_Understanding TypeScript: One metaphor at a time._
+_Understanding TypeScript: One metaphor at a time._ 🌭
+
+← [Back to Home](../README.md) | [null vs undefined](./null-vs-undefined/README.md) | [async/await](./async-await/README.md)

@@ -539,4 +539,6 @@ async function getData(): Promise<string> {
 
 ---
 
-_Understanding async code: You don't block the line while waiting for your hot dog._
+_Understanding async code: You don't block the line while waiting for your hot dog._ 🌭
+
+← [Back to TypeScript](../README.md) | [Back to Home](../../README.md) | [null vs undefined](../null-vs-undefined/README.md)

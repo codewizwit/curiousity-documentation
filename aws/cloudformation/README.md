@@ -592,4 +592,6 @@ aws cloudformation create-stack \
 
 ---
 
-_Infrastructure as code — because clicking in the console doesn't scale._
+_Infrastructure as code: because clicking in the console doesn't scale._ 🌭
+
+← [Back to AWS](../README.md) | [Back to Home](../../README.md) | [Lambda](../lambda/README.md)

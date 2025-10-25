@@ -455,4 +455,6 @@ console.log(JSON.stringify({
 
 ---
 
-_Code that runs on demand — no servers, just functions._
+_Code that runs on demand: no servers, just functions._ 🌭
+
+← [Back to AWS](../README.md) | [Back to Home](../../README.md) | [IAM](../iam/README.md)

@@ -540,4 +540,6 @@ Explore more engineering principles and systems thinking across the Curiosity Do
 
 ---
 
-_Understanding ancient engineering: Where math meets stone, and precision becomes permanent._
+_Understanding ancient engineering: Where math meets stone, and precision becomes permanent._ 🌭
+
+← [Back to Home](../README.md) | [Accessibility](../accessibility/README.md) | [TypeScript](../typescript/README.md)

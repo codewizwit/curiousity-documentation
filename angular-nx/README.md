@@ -39,4 +39,6 @@ Visual representation of how projects relate to each other. Helps understand imp
 
 ---
 
-_Exploring how Nx makes Angular development faster and more maintainable._
+_Monorepo architecture, dependency graphs, and computation caching. Making Angular development faster and more maintainable._ 🌭
+
+← [Back to Home](../README.md) | [Angular](../angular/README.md) | [pnpm](../pnpm/README.md)
