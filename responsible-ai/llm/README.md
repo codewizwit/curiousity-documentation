@@ -4,7 +4,7 @@ _Power without guardrails is just chaos with better marketing._
 
 ## Overview
 
-Large Language Models (LLMs) are incredibly powerful tools for building intelligent applications. But power demands responsibility. This guide covers practical patterns for building LLM-powered systems that are safe, reliable, and accountable — without sacrificing the capabilities that make them useful in the first place.
+Large Language Models (LLMs) are incredibly powerful tools for building intelligent applications. But power demands responsibility. This guide covers practical patterns for building LLM-powered systems that are safe, reliable, and accountable, without sacrificing the capabilities that make them useful in the first place.
 
 This isn't about avoiding AI. It's about building AI systems you can actually trust in production.
 
@@ -13,7 +13,7 @@ This isn't about avoiding AI. It's about building AI systems you can actually tr
 ## The Self-Driving Car Metaphor
 
 **LLMs without guardrails:**
-You're in a self-driving car with incredible capabilities — it can navigate complex streets, react to traffic, and get you where you need to go. But it has no seatbelts, no speed limits, no ability to stop when something goes wrong, and occasionally it just decides to drive off the road because the scenery looked nice.
+You're in a self-driving car with incredible capabilities. It can navigate complex streets, react to traffic, and get you where you need to go. But it has no seatbelts, no speed limits, no ability to stop when something goes wrong, and occasionally it just decides to drive off the road because the scenery looked nice.
 
 **LLMs with responsible design:**
 Same powerful car, but with:
@@ -33,13 +33,13 @@ Before diving into patterns, here are the guiding principles that should inform 
 
 ### 1. **LLMs Are Probabilistic, Not Deterministic**
 
-Traditional code: `if (x > 5) return true` — always the same output for the same input.
+Traditional code: `if (x > 5) return true` - always the same output for the same input.
 
 LLMs: "What's 2+2?" might give you "4", "four", "Two plus two equals four", or occasionally something completely wrong.
 
 **Implication:** Never rely on exact output format without validation.
 
-### 2. **LLMs Don't "Know" Things — They Predict Text**
+### 2. **LLMs Don't "Know" Things - They Predict Text**
 
 LLMs sound confident even when they're wrong. They'll hallucinate facts, invent citations, and fabricate API responses with complete certainty.
 

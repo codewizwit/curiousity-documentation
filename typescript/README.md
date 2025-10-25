@@ -4,7 +4,7 @@ _Making sense of types, one footgun at a time._
 
 ## Overview
 
-TypeScript adds static typing to JavaScript, catching errors at compile time instead of runtime. But with great types comes great confusion — especially around concepts like `null` vs `undefined`, asynchronous code patterns, and type narrowing.
+TypeScript adds static typing to JavaScript, catching errors at compile time instead of runtime. But with great types comes great confusion, especially around concepts like `null` vs `undefined`, asynchronous code patterns, and type narrowing.
 
 This section breaks down the tricky parts with practical examples and metaphors that stick.
 

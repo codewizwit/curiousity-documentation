@@ -44,9 +44,9 @@ Speed without understanding is technical debt in disguise. Automation without tr
 
 It means asking harder questions and refusing easy answers:
 
-- **Who benefits from this system — and who might be harmed?**
+- **Who benefits from this system and who might be harmed?**
 - **How does this tool shift power, agency, or autonomy?**
-- **What stories are we amplifying — and whose are we erasing?**
+- **What stories are we amplifying and whose are we erasing?**
 
 ---
 

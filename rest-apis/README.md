@@ -51,7 +51,7 @@ Use HTTP methods to describe actions:
 
 ### 3. Stateless
 
-Each request is **independent** — the server doesn't remember previous requests.
+Each request is **independent**. The server doesn't remember previous requests.
 
 ```
 // ❌ Stateful (server remembers)

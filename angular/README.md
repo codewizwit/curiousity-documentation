@@ -1,6 +1,6 @@
 # Angular Modern Reactivity
 
-_Understanding Angular's new signal-based reactivity — and why it's a game changer._
+_Understanding Angular's new signal-based reactivity and why it's a game changer._
 
 ## Overview
 
@@ -24,7 +24,7 @@ Imagine you're working in an office with a team:
 **The New Way (Signals):**
 - There's a shared whiteboard in the center of the room
 - Anyone can write a sticky note on the board
-- Everyone can see changes immediately — no subscription needed
+- Everyone can see changes immediately (no subscription needed)
 - Computed notes automatically update when their source notes change
 - Effects are like a janitor who automatically cleans up when notes change
 
@@ -79,7 +79,7 @@ Compare `computed()` to RxJS operators like `combineLatest` and manual derived s
 - Chaining computed signals
 - Migration from `combineLatest` patterns
 
-**Key insight:** Computed signals are like Excel formulas — they automatically update when their inputs change, and they don't recalculate unnecessarily.
+**Key insight:** Computed signals are like Excel formulas. They automatically update when their inputs change, and they don't recalculate unnecessarily.
 
 ---
 
@@ -112,7 +112,7 @@ Compare `effect()` to `subscribe()` and lifecycle hooks like `ngOnInit`.
 
 ## Should You Migrate Everything to Signals?
 
-**Short answer:** No, not yet — but start using signals for new features.
+**Short answer:** No, not yet. But start using signals for new features.
 
 **When to use signals:**
 - Local component state (replace `BehaviorSubject`)

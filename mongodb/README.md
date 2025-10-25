@@ -158,7 +158,7 @@ db.users.find({ name: { $regex: /alex/i } })
 
 ## ⚙️ Indexes
 
-Indexes make queries faster by creating a sorted reference structure — like an index at the back of a textbook that lets you jump directly to a topic instead of scanning every page.
+Indexes make queries faster by creating a sorted reference structure, like an index at the back of a textbook that lets you jump directly to a topic instead of scanning every page.
 
 **Without an index:** MongoDB scans every document in a collection (slow for large datasets)
 **With an index:** MongoDB looks up the value in the index and jumps directly to matching documents
@@ -201,7 +201,7 @@ db.users.find({ email: "alex@example.com" }).explain("executionStats")
 
 ## 📦 Aggregation Pipelines
 
-Aggregation pipelines transform data through a series of stages — like an assembly line where each stage processes documents and passes them to the next stage.
+Aggregation pipelines transform data through a series of stages, like an assembly line where each stage processes documents and passes them to the next stage.
 
 ### Common Pipeline Stages
 
@@ -478,7 +478,7 @@ await db.users.insertOne({ _id: "custom-id", name: "Alex" });
 
 ## ☁️ MongoDB Atlas
 
-MongoDB Atlas is the managed cloud version of MongoDB — it handles scaling, backups, and monitoring automatically.
+MongoDB Atlas is the managed cloud version of MongoDB. It handles scaling, backups, and monitoring automatically.
 
 Connect to an Atlas cluster using your connection string:
 ```bash
@@ -505,7 +505,7 @@ mongosh "mongodb+srv://<cluster-url>/myDatabase" --apiVersion 1
 
 ## 🎓 Where This Journey Started
 
-Want to see where I first learned MongoDB? Check out [my bootcamp notes from March 2020](../archives/mongodb-learning-journey/README.md) — the "class thursday march 4" breakthrough moment when SQL vs NoSQL finally clicked, pizza app diagrams, and the handwritten notes that led to the filing cabinet metaphor.
+Want to see where I first learned MongoDB? Check out [my bootcamp notes from March 2020](../archives/mongodb-learning-journey/README.md): the "class thursday march 4" breakthrough moment when SQL vs NoSQL finally clicked, pizza app diagrams, and the handwritten notes that led to the filing cabinet metaphor.
 
 ---
 

@@ -4,7 +4,7 @@ _Understanding asynchronous code with hot dogs._
 
 ## Overview
 
-Async/await is JavaScript's way of handling operations that take time — like fetching data from a server, reading files, or waiting for user input. Instead of blocking everything while you wait, async/await lets you write asynchronous code that looks synchronous.
+Async/await is JavaScript's way of handling operations that take time: fetching data from a server, reading files, or waiting for user input. Instead of blocking everything while you wait, async/await lets you write asynchronous code that looks synchronous.
 
 The best way to understand this? Think about ordering from a hot dog stand.
 

@@ -4,7 +4,7 @@ _Building React apps that are fast, SEO-friendly, and production-ready out of th
 
 ## Overview
 
-Next.js is a framework built on top of React that solves a lot of the hard problems that come with building modern web apps. If React is the engine, Next.js is the complete car — it comes with routing, server-side rendering, static site generation, API routes, and a ton of optimizations baked in.
+Next.js is a framework built on top of React that solves a lot of the hard problems that come with building modern web apps. If React is the engine, Next.js is the complete car. It comes with routing, server-side rendering, static site generation, API routes, and a ton of optimizations baked in.
 
 Think of React as giving you the tools to build a house, while Next.js gives you the blueprints, foundation, and structure to actually build that house the right way.
 
