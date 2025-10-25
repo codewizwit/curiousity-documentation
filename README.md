@@ -17,8 +17,7 @@ It's not perfect, but it's honest, and usually a little weird (in the best way).
 
 ## 🤓 Why This Exists
 
-Because writing is my debugging tool.
-Because documentation is how I think.
+Because documentation is how I think and _remember_.
 And because curiosity is the best dev skill no one puts on their résumé.
 
 **The throughline?** Five years of the same instinct: If I'm confused, I write it down. If I figure it out, I document it. If I build it, I explain it like I'm five.
