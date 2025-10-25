@@ -1,8 +1,6 @@
 # 🌭 Curiosity Documentation
 _A living notebook where curiosity meets code._
 
-**New here?** → Start with [The Archives](./archives/README.md) to see where this all began, or jump straight to [The Greatest Hits](#-start-here-the-greatest-hits).
-
 Welcome to my curiosity lab: part experiment, part documentation binge, part "wait, how does that actually work?" moment.
 
 Every folder here started because I went down a rabbit hole I couldn't stop thinking about. From **handwritten bootcamp notebooks** (2020) trying to understand JavaScript's event loop, to production docs on **AWS Lambda**, **REST APIs**, and **responsible AI governance**. From **TypeScript brain-benders** to the **geometry behind ancient pyramids** (yes, really).
@@ -10,7 +8,10 @@ Every folder here started because I went down a rabbit hole I couldn't stop thin
 This is where I document until things make sense.
 It's not perfect, but it's honest, and usually a little weird (in the best way).
 
-**The throughline?** Five years of the same instinct: If I'm confused, I write it down. If I figure it out, I document it. If I build it, I explain it like I'm five.
+<div align="center">
+  <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExdm01dTNwdGc4YTNqbmJwMmxxeGRsNWNoajhqanJ4bG53YXJsMXQ2MyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/N7aAkvk6lSpYoLaAEi/giphy.gif" alt="Why don't you explain this to me like I'm five" width="500">
+  <p><em>My documentation philosophy in a nutshell.</em></p>
+</div>
 
 ---
 
@@ -20,6 +21,8 @@ Because writing is my debugging tool.
 Because documentation is how I think.
 And because curiosity is the best dev skill no one puts on their résumé.
 
+**The throughline?** Five years of the same instinct: If I'm confused, I write it down. If I figure it out, I document it. If I build it, I explain it like I'm five.
+
 **This habit started in bootcamp**: filling notebooks with diagrams, question marks in the margins, crossed-out explanations where I got it wrong. When async JavaScript finally clicked, I documented that moment. When MongoDB schema design made sense, I wrote it down. When JWTs stopped being magic, I captured the "aha."
 
 Five years later, I still do the same thing. Just with better tools (and legible handwriting, since I type now).
@@ -28,24 +31,21 @@ This repo is learning in public. Mistakes documented. Confusion captured. Breakt
 
 If you've ever Googled something and wished the explanation was written by a human instead of a robot, welcome home.
 
-<div align="center">
-  <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExdm01dTNwdGc4YTNqbmJwMmxxeGRsNWNoajhqanJ4bG53YXJsMXQ2MyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/N7aAkvk6lSpYoLaAEi/giphy.gif" alt="Why don't you explain this to me like I'm five" width="500">
-  <p><em>My documentation philosophy in a nutshell.</em></p>
-</div>
-
 ---
 
 ## 🧭 Topics of Obsession
+
+**New here?** → Start with [The Archives](./archives/README.md) to see where this all began, or jump straight to [The Greatest Hits](#-start-here-the-greatest-hits) below.
 
 ### 🎯 Start Here (The Greatest Hits)
 
 | Topic | What's Inside |
 |-------|---------------|
-| **[📓 The Archives](./archives/README.md)** | My bootcamp notebooks from 2020-2021. **34 handwritten pages** from "What is a function?" to production apps. The "class thursday march 4" MongoDB breakthrough, algorithm revelations, and JavaScript event loop diagrams with question marks everywhere. Where my documentation habbit started. |
+| **[📓 The Archives](./archives/README.md)** | My bootcamp notebooks from 2020-2021. **34 handwritten pages** from "What is a function?" to production apps. The "class thursday march 4" MongoDB breakthrough, algorithm revelations, and JavaScript event loop diagrams with question marks everywhere. Where my documentation habit started. |
 | **[🤝 Responsible AI](./responsible-ai/README.md)** | _No Human Left Behind._ Building AI that puts people first. The Developer-First Accountability Framework, human-in-the-loop patterns, and why human dignity is non-negotiable. Plus [LLM security & guardrails](./responsible-ai/llm/README.md). |
 | **[♿ Accessibility](./accessibility/README.md)** | Building for everyone, not just some. Semantic HTML, keyboard nav, screen readers, ARIA, and why universal design makes everything better. |
 | **[🏗️ Ancient Pyramids](./pyramids/README.md)** | The original full-stack architecture project. Geometry, measurement, and how ancient engineers achieved impossible precision. ASCII diagrams included. |
-| **[📘 TypeScript: null vs undefined](./typescript/null-vs-undefined/README.md)** | The toilet paper metaphor that finally made it stick. Includes memes. |
+| **[📘 TypeScript: null vs undefined](./typescript/null-vs-undefined/README.md)** | Understanding the difference between "nothing here" and "deliberately empty." The toilet paper incident that finally made it click. Includes memes. |
 
 ---
 
@@ -53,9 +53,9 @@ If you've ever Googled something and wished the explanation was written by a hum
 
 | Topic | What I'm Figuring Out |
 |-------|----------------------|
-| **[⚡ Angular](./angular/README.md)** | Signals, computed, effect: the whiteboard metaphor for Angular's new reactivity system |
-| **[⚛️ React](./react/README.md)** | Components, hooks, and the LEGO metaphor. Building UIs one block at a time |
-| **[🚀 Next.js](./nextjs/README.md)** | The restaurant kitchen metaphor for SSR, SSG, and rendering modes |
+| **[⚡ Angular](./angular/README.md)** | Signals, computed, effect. Angular's new reactivity system that makes state updates obvious |
+| **[⚛️ React](./react/README.md)** | Components, hooks, and building UIs with reusable blocks |
+| **[🚀 Next.js](./nextjs/README.md)** | SSR, SSG, ISR, and rendering modes. Making React apps fast and SEO-friendly |
 | **[🏗️ Angular + Nx](./angular-nx/README.md)** | Monorepo architecture, dependency graphs, and computation caching |
 | **[🔌 Module Federation](./module-federation/README.md)** | Micro-frontends without the micro-headaches. Dynamic remote loading, shared dependencies, and independent deployment |
 
@@ -68,8 +68,8 @@ If you've ever Googled something and wished the explanation was written by a hum
 | **[🏗️ NestJS](./nestjs/README.md)** | Angular's architecture for the backend. Dependency injection meets Node.js |
 | **[☁️ AWS](./aws/README.md)** | Cloud computing that scales. [Lambda](./aws/lambda/README.md) (serverless functions), [IAM](./aws/iam/README.md) (who can do what), [CloudFormation](./aws/cloudformation/README.md) (infrastructure as code) |
 | **[🌐 REST APIs](./rest-apis/README.md)** | Designing interfaces that make sense. Resources, HTTP methods, status codes, and why nouns > verbs |
-| **[🍃 MongoDB](./mongodb/README.md)** | The filing cabinet vs storage bins metaphor. NoSQL, schemas, and when to embed vs reference |
-| **[🔐 JWTs](./jwts/README.md)** | Decoding, verifying, and the passport metaphor for understanding bearer tokens |
+| **[🍃 MongoDB](./mongodb/README.md)** | NoSQL database design. Understanding schemas, when to embed vs reference, and how to structure your data |
+| **[🔐 JWTs](./jwts/README.md)** | JSON Web Tokens. Decoding, verifying, and understanding bearer token authentication |
 
 ---
 
@@ -99,7 +99,7 @@ If you've ever Googled something and wished the explanation was written by a hum
 
 | Topic | What I'm Figuring Out |
 |-------|----------------------|
-| **[📘 TypeScript](./typescript/README.md)** | null vs undefined (toilet paper), async/await (hot dog stand), and brain-benders with types |
+| **[📘 TypeScript](./typescript/README.md)** | null vs undefined, async/await patterns, and type system fundamentals that make JavaScript better |
 
 ---
 
