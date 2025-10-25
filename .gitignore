@@ -51,3 +51,6 @@ dist/
 build/
 out/
 coverage/
+
+CLAUDE.md
+/.claude/

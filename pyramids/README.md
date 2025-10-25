@@ -1,5 +1,7 @@
 # 🏗️ Ancient Pyramids: Precision by Design
 
+[![Part of Curiosity Documentation](https://img.shields.io/badge/Part%20of-Curiosity%20Documentation-blue)](../README.md)
+
 _How ancient builders achieved impossible precision through math, measurement, and methodical design._
 
 ## Overview
@@ -10,23 +12,19 @@ Its base deviates from a perfect square by less than **2 inches**, and each side
 
 This wasn't luck. It was the result of centuries of experimentation in **mathematical proportion, surveying, and material control**.
 
+**This doc explores how ancient Egyptians used proportional design, geometry, and observation to achieve structural precision long before modern tools existed.** It's a study in systems thinking, measurement, and iteration — the same principles that underpin good engineering today.
+
 ---
 
 ## The Math Behind the Design
 
-### 1. The Golden Ratio (φ) and the Pyramid Angle
+### 1. The Pyramid Angle and Proportions
 
-Many measurements of the Great Pyramid's slope reveal a consistent ratio close to the **golden ratio (φ ≈ 1.618)**.
-
-- The pyramid's **height** (originally 280 royal cubits)
-- The **half-base length** (220 royal cubits)
-
-This gives a ratio of `280 / 220 ≈ 1.27`, very near `√φ ≈ 1.272`.
-That translates to a **slope angle of about 51.84°**, the same angle seen repeatedly in its faces.
+The Great Pyramid's slope angle is approximately **51.84°**, a consistent geometric feature seen repeatedly across its faces.
 
 #### Pyramid Cross-Section: The Perfect Angle
 
-```
+~~~
                              /\  Apex
                             /  \
                            /    \
@@ -45,18 +43,20 @@ That translates to a **slope angle of about 51.84°**, the same angle seen repea
 
                 <--------440 cubits-------->
                          (Full Base)
-```
+~~~
+
+> **Note:** Some measurements of the Great Pyramid reveal proportions close to the golden ratio (φ ≈ 1.618). The pyramid's height (280 royal cubits) to half-base (220 cubits) gives a ratio of `280 / 220 ≈ 1.27`, very near `√φ ≈ 1.272`. Whether intentional or coincidental, these ratios illustrate consistent geometric intent.
 
 **Key Insight:**
 The relationship encodes a mathematical harmony:
-```
+~~~
 (Perimeter of base) ≈ (Circumference of a circle with radius = height)
 
 Perimeter: 4 × 440 = 1760 cubits
 Circumference: 2π × 280 ≈ 1759 cubits
 
 Difference: Less than 1 cubit!
-```
+~~~
 
 This suggests the builders understood **π (pi)** and were encoding relationships between **circle and square**, **Earth and sky**, **base and height**.
 
@@ -74,7 +74,7 @@ Archaeologists and mathematicians have noted that the pyramid's proportions also
 
 #### Earth-to-Pyramid Proportional Model
 
-```
+~~~
      Earth                          Great Pyramid
      =====                          =============
 
@@ -92,7 +92,7 @@ Archaeologists and mathematicians have noted that the pyramid's proportions also
    Pyramid: 921.6 / 146.5  ≈ 6.29 (≈ 2π)
 
    The pyramid is a 1:43,200 scale model of Earth's geometry!
-```
+~~~
 
 To plan this, they relied on **surveying tools** like:
 - **Gnomons** (shadow rods) for solar angle calibration
@@ -107,7 +107,7 @@ The Great Pyramid's sides align to true cardinal directions with astonishing acc
 
 #### Top-Down View: Base Alignment
 
-```
+~~~
                        TRUE NORTH ↑
                                   │
                                   │
@@ -142,7 +142,7 @@ The Great Pyramid's sides align to true cardinal directions with astonishing acc
     • West:   230.36 m
 
     Maximum deviation: 20 cm (< 2 inches) on a 230-meter side!
-```
+~~~
 
 **How they achieved this:**
 - Used star sightings (circumpolar stars) to find true north
@@ -160,7 +160,7 @@ The Egyptians measured slope using the **seked** — the horizontal distance (in
 
 #### Seked Measurement Diagram
 
-```
+~~~
               ▲ 1 cubit rise (7 palms)
               │
               │
@@ -181,7 +181,7 @@ The Egyptians measured slope using the **seked** — the horizontal distance (in
     θ ≈ 51.84°
 
     This is the Great Pyramid's slope!
-```
+~~~
 
 **Why this system worked:**
 - Based on body measurements (consistent across workers)
@@ -191,7 +191,7 @@ The Egyptians measured slope using the **seked** — the horizontal distance (in
 
 #### Seked Scale in Practice
 
-```
+~~~
 Model (1:100)              Full Scale (440 cubits base)
 =============              ==========================
 
@@ -205,7 +205,7 @@ Model (1:100)              Full Scale (440 cubits base)
   4.4 base                   440 base
 
 Same seked = Same angle = Consistent geometry
-```
+~~~
 
 ---
 
@@ -216,7 +216,7 @@ Archaeologists believe they dug shallow **trenches filled with water** to mark a
 
 #### Water Leveling Technique
 
-```
+~~~
 Step 1: Cut perimeter trench
 ═══════════════════════════════════════════════════════
      ╔═══════════════════════════════════════╗
@@ -254,7 +254,7 @@ Step 4: Final result
      │     Variation: < 2 cm (0.8 in)     │    (230m × 230m)
      │   across entire 5.3-acre base      │
      └─────────────────────────────────────┘
-```
+~~~
 
 **Why this worked:**
 - Water always finds its own level (gravity does the work)
@@ -274,7 +274,7 @@ Evidence suggests a **ramp system** that changed shape as construction rose.
 
 #### Three-Stage Ramp System
 
-```
+~~~
 STAGE 1: STRAIGHT RAMP (Lower courses: 0-20m height)
 ═════════════════════════════════════════════════════════
 
@@ -346,7 +346,7 @@ LUBRICATED SLEDGE SYSTEM (Used at all stages)
   Workers: 20-50 men per block
   Speed: ~30 meters per hour on lubricated surface
   Friction reduction: Up to 50% with wet surface
-```
+~~~
 
 **Key Innovation:**
 Experimental archaeology has shown that **one worker could move a 2-ton block** on a lubricated sled with about the same effort as pushing a car on flat ground.
@@ -363,7 +363,7 @@ Architects likely used small-scale clay or wooden models with **unit ratios**, n
 
 ### Typical Workflow
 
-```
+~~~
 1. Define the base square using a fixed cubit rope
 
    ┌─────────────────────────────┐
@@ -393,7 +393,7 @@ Architects likely used small-scale clay or wooden models with **unit ratios**, n
    Every measurement × 100
    Model: 4.4 cubits base  →  Full: 440 cubits base
    Model: 2.8 cubits high  →  Full: 280 cubits high
-```
+~~~
 
 This system allowed **repeatability across dynasties** — early **parametric design** before computers.
 
@@ -401,7 +401,7 @@ This system allowed **repeatability across dynasties** — early **parametric de
 
 ## Construction Timeline Visualization
 
-```
+~~~
 Project Duration: ~20 years (2580-2560 BCE)
 Workers: ~10,000-20,000 seasonal laborers
 Stones: ~2.3 million blocks
@@ -440,7 +440,7 @@ Annual cycle:
 │ • Moderate labor force available                     │
 │ ░░░░░░░░░░░░░░░░░░░░████████████░░░░░░░░░░░░░░      │
 └──────────────────────────────────────────────────────┘
-```
+~~~
 
 ---
 
@@ -516,6 +516,27 @@ The precision wasn't magic. It was:
 - **Documentation** (encoded in the structure itself)
 
 Modern software engineering could learn from this: sometimes the best documentation is the system itself, built with such clarity that its logic is self-evident.
+
+---
+
+## See Also
+
+Explore more engineering principles and systems thinking across the Curiosity Documentation:
+
+**Systems & Architecture:**
+- [Angular + Nx](../angular-nx/README.md) — Monorepo architecture, dependency graphs, and computation caching
+- [NestJS](../nestjs/README.md) — Bringing structure and scalability to Node.js with modular architecture
+- [Next.js](../nextjs/README.md) — Full-stack React framework with rendering modes and API routes
+
+**Precision & Measurement:**
+- [TypeScript](../typescript/README.md) — Type systems as measurement tools for code correctness
+- [Code Coverage](../testing/code-coverage/README.md) — Understanding metrics and pragmatic thresholds
+- [MongoDB](../mongodb/README.md) — Flexible data structures with consistent querying patterns
+
+**People-First Principles:**
+- [Responsible AI](../responsible-ai/README.md) — Building with accountability and human dignity
+- [Web Accessibility](../accessibility/README.md) — Universal design that works for everyone
+- [GitHub Actions](../github-actions/README.md) — Automated workflows with transparency and control
 
 ---
 

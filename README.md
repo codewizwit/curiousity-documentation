@@ -71,6 +71,9 @@ Angular's architecture for the backend — bringing structure, scalability, and 
 **[📘 TypeScript](./typescript/README.md)**
 Deep dives into tricky TypeScript concepts with memorable metaphors: null vs undefined (toilet paper), async/await (hot dog stand), and more.
 
+**[🍃 MongoDB](./mongodb/README.md)**
+Quick reference for getting started with MongoDB — CRUD operations, query operators, indexes, and aggregations. Learning from excellent documentation.
+
 ### People-First Development
 
 **[♿ Web Accessibility](./accessibility/README.md)**
@@ -101,6 +104,9 @@ Unit testing, mocking strategies, and TypeScript integration.
 
 **[📊 Code Coverage](./testing/code-coverage/README.md)**
 Understanding coverage metrics, best practices, and pragmatic thresholds.
+
+**[🧬 Mutation Testing](./testing/stryker/README.md)**
+Testing the tests with Stryker — injecting bugs to verify your test suite actually catches them. Who tests the tests? Mutants do.
 
 ### Security & Auth
 
@@ -142,6 +148,8 @@ curiosity-documentation/
 │       └── README.md
 ├── pyramids/
 │   └── README.md
+├── mongodb/
+│   └── README.md
 ├── accessibility/
 │   └── README.md
 ├── responsible-ai/
@@ -155,7 +163,9 @@ curiosity-documentation/
 │   │   └── README.md
 │   ├── jest/
 │   │   └── README.md
-│   └── code-coverage/
+│   ├── code-coverage/
+│   │   └── README.md
+│   └── stryker/
 │       └── README.md
 └── jwts/
     └── README.md
