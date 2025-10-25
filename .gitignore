@@ -52,5 +52,8 @@ build/
 out/
 coverage/
 
+# Original scanned notebook images (already organized into archive folders)
+archives/_original-scans/
+
 CLAUDE.md
 /.claude/

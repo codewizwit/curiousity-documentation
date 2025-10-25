@@ -224,4 +224,10 @@ console.log(decoded);
 
 ---
 
+## Where This Journey Started
+
+The JWT concepts in this document trace back to my bootcamp notes from 2021, when I first learned authentication and authorization. The "aha moment" of understanding bearer tokens and the complete authorization flow is captured in my [Backend, Auth & Cloud archives](../archives/backend-auth-cloud/README.md) — handwritten notes from when JWTs finally clicked.
+
+---
+
 _Understanding the tokens that power modern authentication._

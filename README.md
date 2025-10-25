@@ -91,6 +91,16 @@ No Human Left Behind. A manifesto and framework for building AI that enhances hu
 **[🏗️ Ancient Pyramids](./pyramids/README.md)**
 How ancient builders achieved impossible precision through math, measurement, and methodical design, with ASCII diagrams showing the geometry.
 
+**[📓 The Archives](./archives/README.md)**
+My handwritten bootcamp notes from learning to code — confusion, breakthroughs, and the messy middle. Where documentation started: in curiosity and the need to write things down to understand them.
+
+**The Learning Journey (2020-2021):**
+- [MongoDB: When Tables Stopped Making Sense](./archives/mongodb-learning-journey/README.md) — 2020, the "class thursday march 4" breakthrough moment
+- [ORM & MVC: The Translation Layer](./archives/orm-mvc-architecture/README.md) — 2020, when databases met objects through Sequelize
+- [Algorithms: When Efficiency Started to Matter](./archives/algorithms-problem-solving/README.md) — 2020, understanding Big O complexity and scalability
+- [JavaScript: When Async Stopped Being Magic](./archives/javascript/README.md) — 2020, event loop, closures, and functional programming (11 pages)
+- [Auth & Cloud: When Security Became Real](./archives/backend-auth-cloud/README.md) — 2021, JWT authorization flow and AWS deployment
+
 ### Testing
 
 **[🧪 Cypress](./testing/cypress/README.md)**
@@ -149,6 +159,8 @@ curiosity-documentation/
 ├── pyramids/
 │   └── README.md
 ├── mongodb/
+│   └── README.md
+├── archives/
 │   └── README.md
 ├── accessibility/
 │   └── README.md

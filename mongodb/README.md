@@ -503,6 +503,12 @@ mongosh "mongodb+srv://<cluster-url>/myDatabase" --apiVersion 1
 
 ---
 
+## 🎓 Where This Journey Started
+
+Want to see where I first learned MongoDB? Check out [my bootcamp notes from March 2020](../archives/mongodb-learning-journey/README.md) — the "class thursday march 4" breakthrough moment when SQL vs NoSQL finally clicked, pizza app diagrams, and the handwritten notes that led to the filing cabinet metaphor.
+
+---
+
 **Goal:** Keep exploring how MongoDB's documentation communicates these concepts clearly. The docs are a great example of developer education that feels empowering, not intimidating.
 
 ---
