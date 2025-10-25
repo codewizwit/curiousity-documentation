@@ -20,15 +20,15 @@ The best way to understand the difference between `null` and `undefined` is thro
 
 **`0` (empty but defined)**
 - Toilet paper holder exists
-- There IS toilet paper
-- It's just empty (rolled all the way)
-- You know exactly what you have: nothing left
+- Roll is completely used up (empty tube)
+- You can count exactly zero sheets left
+- Defined value, just happens to be zero
 
 **`undefined` (not set up yet)**
-- Toilet paper holder exists
-- But there's NO roll on it at all
-- Someone forgot to put a roll on
+- No toilet paper holder at all
+- Nothing was ever installed
 - The value was never assigned
+- Doesn't exist in this context
 
 **`null` (intentionally empty)**
 - Toilet paper holder exists
@@ -36,31 +36,23 @@ The best way to understand the difference between `null` and `undefined` is thro
 - Someone used all of it and left the tube
 - Intentionally set to "nothing"
 
-**No toilet paper holder at all**
-- This is like accessing a property that doesn't exist
-- `TypeError: Cannot read property...`
-
 ### In Code
 
 ```typescript
-// 0 - Empty but defined
+// 0 - Empty but defined (zero sheets counted)
 let tpSheets = 0;
 console.log(tpSheets);  // 0
 console.log(typeof tpSheets);  // "number"
 
-// undefined - Never set up
-let tpRoll: number | undefined;
-console.log(tpRoll);  // undefined
-console.log(typeof tpRoll);  // "undefined"
+// undefined - Never set up (no holder installed)
+let tpHolder: { sheets: number } | undefined;
+console.log(tpHolder);  // undefined
+console.log(typeof tpHolder);  // "undefined"
 
-// null - Intentionally empty
-let tpRoll: number | null = null;
+// null - Intentionally empty (empty tube left behind)
+let tpRoll: { sheets: number } | null = null;
 console.log(tpRoll);  // null
 console.log(typeof tpRoll);  // "object" (JavaScript quirk!)
-
-// No holder at all
-let bathroom = {};
-console.log(bathroom.toiletPaper);  // undefined (property doesn't exist)
 ```
 
 ---
