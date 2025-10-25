@@ -18,6 +18,12 @@ The best way to understand the difference between `null` and `undefined` is thro
 
 ### The Visual Guide
 
+**Non-zero value (actual data)**
+- Toilet paper holder exists
+- Roll has paper on it
+- You can count the sheets (5, 10, 100, etc.)
+- This is what we're usually working with
+
 **`0` (empty but defined)**
 - Toilet paper holder exists
 - Roll is completely used up (empty tube)
@@ -39,10 +45,15 @@ The best way to understand the difference between `null` and `undefined` is thro
 ### In Code
 
 ```typescript
-// 0 - Empty but defined (zero sheets counted)
-let tpSheets = 0;
-console.log(tpSheets);  // 0
+// Non-zero value - Actual data
+let tpSheets = 50;
+console.log(tpSheets);  // 50
 console.log(typeof tpSheets);  // "number"
+
+// 0 - Empty but defined (zero sheets counted)
+let emptyRoll = 0;
+console.log(emptyRoll);  // 0
+console.log(typeof emptyRoll);  // "number"
 
 // undefined - Never set up (no holder installed)
 let tpHolder: { sheets: number } | undefined;
