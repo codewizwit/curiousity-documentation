@@ -1,12 +1,12 @@
 # 🧭 Curiosity Documentation
 
-_A living notebook for topics I've taken apart to understand better._
+_A living notebook documenting the journey from bootcamp to production._
 
 **Built by Alexandra Kelstrom** — a software engineer who puts people first. I am a documentation enthusiast and love to make documentation that is relatable, and simple to understand. I approach engineering with curiosity and empathy, breaking down complexity with metaphors and documenting the journey from confusion to clarity.
 
-This repo is my personal learning lab — a collection of deep dives into things that spark my curiosity and passion. Some topics come from building or debugging real projects. Others are just rabbit holes worth exploring. From **responsible AI** and **accessibility** to **Angular signals**, **NestJS**, **Next.js**, **GitHub Actions**, **TypeScript**, **ancient pyramid engineering**, **pnpm**, **Nx**, testing with **Cypress**, **Playwright**, and **Jest**, and **JWTs**... If I wanted to understand how it really works, it's probably documented here.
+**This repo shows the full arc:** from handwritten bootcamp notebooks (2020-2021) learning "What is a function?" to production-level documentation on complex systems. Some topics come from building or debugging real projects. Others are rabbit holes worth exploring. From **bootcamp notes on JavaScript runtime and algorithms** to **responsible AI**, **accessibility**, **Angular signals**, **NestJS**, **Next.js**, **GitHub Actions**, **TypeScript**, **ancient pyramid engineering**, **pnpm**, **Nx**, testing with **Cypress**, **Playwright**, and **Jest**, and **JWTs**... If I wanted to understand how it really works, it's documented here.
 
-The goal isn’t to teach exhaustively; it’s to make sense of things I was curious about and keep those notes in a searchable, reusable form.
+The goal isn't to teach exhaustively; it's to capture the learning process — from confused beginner to confident engineer — in a searchable, reusable form.
 
 ---
 
@@ -14,7 +14,10 @@ The goal isn’t to teach exhaustively; it’s to make sense of things I was cur
 
 I learn best by documenting what I figure out.
 Writing things down turns curiosity into clarity; and clarity into better code.
-This repo captures that process in public, so others can learn (or correct me) along the way.
+
+**This habit started in bootcamp** — filling notebooks with diagrams, questions, and "aha moments" to make sense of JavaScript closures, event loops, and Big O notation. That instinct never went away; it just evolved from handwritten notes to production documentation.
+
+This repo captures that entire journey in public, so others can learn (or correct me) along the way.
 
 <div align="center">
   <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExdm01dTNwdGc4YTNqbmJwMmxxeGRsNWNoajhqanJ4bG53YXJsMXQ2MyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/N7aAkvk6lSpYoLaAEi/giphy.gif" alt="Why don't you explain this to me like I'm five" width="500">
@@ -28,6 +31,8 @@ Every topic here is broken down with metaphors, relatable examples, and the kind
 ## ⭐ Featured Deep Dives
 
 Here are some of the most detailed explorations in this repo — great starting points if you're new here:
+
+**[📓 The Archives: Bootcamp Notebooks](./archives/README.md)** — _Where documentation started._ My handwritten notes from learning to code in 2020-2021. **34 pages** capturing the journey from "What is a function?" to building production applications. Breakthroughs, confusion, and the messy middle documented in real-time. See where the instinct to write things down until they make sense began.
 
 **[🤝 Responsible AI](./responsible-ai/README.md)** — _No Human Left Behind._ A manifesto and practical framework for building AI that puts people first. Covers the Developer-First Accountability Framework, critical questions for AI adoption, and why human dignity must be non-negotiable in our systems. Includes a deep dive on [Building with LLMs](./responsible-ai/llm/README.md) with security patterns, guardrails, and human-in-the-loop implementation.
 
@@ -86,20 +91,15 @@ No Human Left Behind. A manifesto and framework for building AI that enhances hu
 
 - **[Building with LLMs](./responsible-ai/llm/README.md)** - Security, guardrails, human-in-the-loop patterns, evaluation, and cost management for production LLM systems.
 
+### The Learning Journey
+
+**[📓 The Archives](./archives/README.md)**
+My handwritten bootcamp notes from learning to code (2020-2021) — **34 pages** capturing the journey from "What is a function?" to building production applications. MongoDB breakthroughs, algorithm complexity revelations, JavaScript runtime deep dives, and the moments when security and deployment became real. Where documentation started: in curiosity and the need to write things down to understand them.
+
 ### Beyond Code
 
 **[🏗️ Ancient Pyramids](./pyramids/README.md)**
 How ancient builders achieved impossible precision through math, measurement, and methodical design, with ASCII diagrams showing the geometry.
-
-**[📓 The Archives](./archives/README.md)**
-My handwritten bootcamp notes from learning to code — confusion, breakthroughs, and the messy middle. Where documentation started: in curiosity and the need to write things down to understand them.
-
-**The Learning Journey (2020-2021):**
-- [MongoDB: When Tables Stopped Making Sense](./archives/mongodb-learning-journey/README.md) — 2020, the "class thursday march 4" breakthrough moment
-- [ORM & MVC: The Translation Layer](./archives/orm-mvc-architecture/README.md) — 2020, when databases met objects through Sequelize
-- [Algorithms: When Efficiency Started to Matter](./archives/algorithms-problem-solving/README.md) — 2020, understanding Big O complexity and scalability
-- [JavaScript: When Async Stopped Being Magic](./archives/javascript/README.md) — 2020, event loop, closures, and functional programming (11 pages)
-- [Auth & Cloud: When Security Became Real](./archives/backend-auth-cloud/README.md) — 2021, JWT authorization flow and AWS deployment
 
 ### Testing
 
@@ -129,58 +129,73 @@ Understanding JSON Web Tokens, claims, issuers, with the passport metaphor.
 
 ```
 curiosity-documentation/
-├── pnpm/
-│   └── README.md
-├── npm/
-│   └── README.md
-├── github-actions/
-│   └── README.md
-├── angular-nx/
+├── accessibility/
 │   └── README.md
 ├── angular/
 │   ├── README.md
-│   ├── signals/
-│   │   └── README.md
 │   ├── computed/
 │   │   └── README.md
-│   └── effect/
+│   ├── effect/
+│   │   └── README.md
+│   └── signals/
 │       └── README.md
-├── nextjs/
+├── angular-nx/
 │   └── README.md
-├── nestjs/
-│   └── README.md
-├── typescript/
+├── archives/
 │   ├── README.md
-│   ├── null-vs-undefined/
+│   ├── algorithms-problem-solving/
 │   │   ├── README.md
-│   │   └── null-undefined-meme.png
-│   └── async-await/
-│       └── README.md
-├── pyramids/
+│   │   └── [5 handwritten pages]
+│   ├── backend-auth-cloud/
+│   │   ├── README.md
+│   │   └── [2 handwritten pages]
+│   ├── javascript/
+│   │   ├── README.md
+│   │   └── [11 handwritten pages]
+│   ├── mongodb-learning-journey/
+│   │   ├── README.md
+│   │   └── [9 handwritten pages]
+│   └── orm-mvc-architecture/
+│       ├── README.md
+│       └── [7 handwritten pages]
+├── github-actions/
+│   └── README.md
+├── jwts/
 │   └── README.md
 ├── mongodb/
 │   └── README.md
-├── archives/
+├── nestjs/
 │   └── README.md
-├── accessibility/
+├── nextjs/
+│   └── README.md
+├── npm/
+│   └── README.md
+├── pnpm/
+│   └── README.md
+├── pyramids/
 │   └── README.md
 ├── responsible-ai/
 │   ├── README.md
 │   └── llm/
 │       └── README.md
 ├── testing/
-│   ├── cypress/
+│   ├── code-coverage/
 │   │   └── README.md
-│   ├── playwright/
+│   ├── cypress/
 │   │   └── README.md
 │   ├── jest/
 │   │   └── README.md
-│   ├── code-coverage/
+│   ├── playwright/
 │   │   └── README.md
 │   └── stryker/
 │       └── README.md
-└── jwts/
-    └── README.md
+└── typescript/
+    ├── README.md
+    ├── async-await/
+    │   └── README.md
+    └── null-vs-undefined/
+        ├── README.md
+        └── null-undefined-meme.png
 ```
 
 ---
@@ -209,8 +224,10 @@ This project demonstrates the concepts documented here in a real-world, open-sou
 
 ## 🧠 Themes
 
+- **Learning in public** — From bootcamp notebooks to production docs
 - **Responsible AI & human-centered technology**
 - **Accessibility & inclusive design**
+- **Documentation as a thinking tool** — Writing to understand, not just to explain
 - Developer Experience & tooling clarity
 - Testing and CI/CD pipelines
 - Dependency management
