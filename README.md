@@ -67,6 +67,9 @@ Monorepo architecture, affected commands, computation caching, and dependency gr
 **[⚡ Angular Modern Reactivity](./angular/README.md)**
 Understanding signals, computed, and effect — Angular's new reactivity system explained with the whiteboard metaphor.
 
+**[⚛️ React](./react/README.md)**
+Building user interfaces with components, hooks, and declarative thinking. The LEGO metaphor for composable UI.
+
 **[⚛️ Next.js](./nextjs/README.md)**
 The full-stack React framework explained with the restaurant kitchen metaphor (from rendering modes to API routes).
 
@@ -78,6 +81,12 @@ Deep dives into tricky TypeScript concepts with memorable metaphors: null vs und
 
 **[🍃 MongoDB](./mongodb/README.md)**
 Quick reference for getting started with MongoDB — CRUD operations, query operators, indexes, and aggregations. Learning from excellent documentation.
+
+**[☁️ AWS (Amazon Web Services)](./aws/README.md)**
+Cloud computing for applications that scale. Deep dives into [Lambda (serverless functions)](./aws/lambda/README.md), [IAM (identity & access management)](./aws/iam/README.md), and [CloudFormation (infrastructure as code)](./aws/cloudformation/README.md).
+
+**[🌐 REST APIs](./rest-apis/README.md)**
+Designing interfaces that make sense — resources, HTTP methods, status codes, authentication, and API best practices.
 
 ### People-First Development
 
@@ -158,6 +167,14 @@ curiosity-documentation/
 │   └── orm-mvc-architecture/
 │       ├── README.md
 │       └── [7 handwritten pages]
+├── aws/
+│   ├── README.md
+│   ├── cloudformation/
+│   │   └── README.md
+│   ├── iam/
+│   │   └── README.md
+│   └── lambda/
+│       └── README.md
 ├── github-actions/
 │   └── README.md
 ├── jwts/
@@ -173,6 +190,10 @@ curiosity-documentation/
 ├── pnpm/
 │   └── README.md
 ├── pyramids/
+│   └── README.md
+├── react/
+│   └── README.md
+├── rest-apis/
 │   └── README.md
 ├── responsible-ai/
 │   ├── README.md
