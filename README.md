@@ -19,7 +19,7 @@ Because documentation is how I think and remember. And because curiosity is the 
 
 **Five years of the same instinct:** If I'm confused, I write it down. If I figure it out, I document it. If I build it, I explain it like I'm eight. Started in bootcamp with handwritten notebooks, question marks in margins, and crossed-out mistakes. Still doing it now, just typed.
 
-**This repo is new, but the habit isn't.** These notes lived in Notion for years. I moved them here to make them easier to search, share, and reference. Plus, I didn't want to be an information hoarder - documentation should be for everyone, not just me.
+**This repo is new, but the habit isn't.** These notes lived in Notion for years. I moved and enhanced them here to make them easier to search, share, and reference. Plus, I didn't want to be an information hoarder - documentation should be for everyone, not just me.
 
 If you've ever Googled something and wished the explanation actually made sense, welcome home.
 
