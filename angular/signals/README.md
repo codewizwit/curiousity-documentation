@@ -22,7 +22,7 @@ Angular signals flip the script. They're **simple, synchronous state containers*
 - You write a sticky note and put it on the whiteboard
 - Anyone can walk up and read it anytime
 - When you update the note, everyone who needs it automatically sees the new value
-- No subscriptions, no cleanup — just read when you need it
+- No subscriptions, no cleanup - just read when you need it
 
 ---
 

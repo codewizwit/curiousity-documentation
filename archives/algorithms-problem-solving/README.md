@@ -8,7 +8,7 @@ _The moment I understood why "it works" isn't always good enough_
 
 **When:** 2020 (Bootcamp - Computer Science fundamentals & algorithms module)
 **What I was learning:** Data structures, Big O notation, algorithm complexity, performance optimization
-**Why it was hard:** I could make code work, but understanding WHY one solution was better than another required a completely different way of thinking. It wasn't about syntax anymore — it was about efficiency, scalability, and mathematical analysis.
+**Why it was hard:** I could make code work, but understanding WHY one solution was better than another required a completely different way of thinking. It wasn't about syntax anymore. It was about efficiency, scalability, and mathematical analysis.
 **Where I was:** Transitioning from "making things work" to "making things work well"
 
 **The challenge:** Shifting from "does it work?" to "how fast does it work at scale?"
@@ -79,16 +79,16 @@ This was where Big O became concrete. Bubble sort has nested loops: for each ite
 **What's happening here:**
 Notes on the relationship between time complexity and space complexity, analyzed through Big O notation.
 
-Understanding that optimization isn't just about speed — it's about the tradeoff between memory usage and processing time.
+Understanding that optimization isn't just about speed. It's about the tradeoff between memory usage and processing time.
 
 **What I notice now:**
-**Space-time tradeoff** is everywhere in engineering: you can make things faster by using more memory (caching, lookup tables), or use less memory by doing more computation on the fly. There's no free lunch — just informed choices about which resource (time or space) you're willing to spend.
+**Space-time tradeoff** is everywhere in engineering: you can make things faster by using more memory (caching, lookup tables), or use less memory by doing more computation on the fly. There's no free lunch, just informed choices about which resource (time or space) you're willing to spend.
 
 ---
 
 ## The Aha Moment
 
-**Page 4 — Bubble Sort Complexity Analysis**
+**Page 4: Bubble Sort Complexity Analysis**
 
 Seeing the **concrete example** of bubble sort's O(n²) complexity made everything click:
 
@@ -119,7 +119,7 @@ An O(n²) algorithm might be faster than O(n) for small inputs. But at scale? Th
 "Big O notation measures how fast an algorithm runs."
 
 **Now (2025):**
-"Big O notation describes how an algorithm's performance changes as the input size grows — it's a measure of scalability, not speed.
+"Big O notation describes how an algorithm's performance changes as the input size grows. It's a measure of scalability, not speed.
 
 Think of it like comparing routes on a road trip:
 - **O(1)**: Teleportation — always instant, no matter the distance
@@ -131,7 +131,7 @@ You pick your route based on distance (input size). For a short trip, city stree
 
 Same with algorithms: the 'best' algorithm depends on your input size and constraints. A 'slow' algorithm with low memory usage might beat a 'fast' algorithm that requires tons of RAM."
 
-**The road trip metaphor started here** — trying to make Big O concrete instead of abstract.
+**The road trip metaphor started here**, trying to make Big O concrete instead of abstract.
 
 ---
 
@@ -144,7 +144,7 @@ Before learning algorithms, I'd jump straight to implementation. After understan
 - How often will this run?
 - Is this a one-time script or production code?
 
-**Algorithm analysis isn't academic — it's practical.**
+**Algorithm analysis isn't academic. It's practical.**
 
 Nested loops on a 10-item array? No problem. On a 10,000-item array? Your app freezes. Understanding complexity means you can spot the problem before you ship it.
 

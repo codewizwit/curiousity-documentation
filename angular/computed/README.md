@@ -4,7 +4,7 @@ _Excel formulas for your Angular components._
 
 ## Overview
 
-One of the most common patterns in Angular apps is **derived state** — values that depend on other values. Before signals, we reached for RxJS operators like `combineLatest`, `map`, and manual calculations. It worked, but it was verbose, error-prone, and easy to create unnecessary work.
+One of the most common patterns in Angular apps is **derived state**: values that depend on other values. Before signals, we reached for RxJS operators like `combineLatest`, `map`, and manual calculations. It worked, but it was verbose, error-prone, and easy to create unnecessary work.
 
 `computed()` changes the game. It's a **memoized, automatically-updating value** that recalculates only when its dependencies change. Think of it like an Excel formula: when the cells it references change, it updates automatically. When nothing changes, it returns the cached result instantly.
 
@@ -351,8 +351,8 @@ export class UserListComponent {
 **Key points:**
 - `filteredUsers` automatically updates when ANY dependency changes
 - Dependencies: `users()`, `searchTerm()`, `showActiveOnly()`, `sortBy()`
-- No manual wiring — just read the signals you need
-- Memoized — only recalculates when inputs change
+- No manual wiring - just read the signals you need
+- Memoized - only recalculates when inputs change
 
 ---
 
@@ -708,7 +708,7 @@ effect(() => {
 });
 ```
 
-**Rule:** Computed should be **pure functions** — no side effects, just calculations.
+**Rule:** Computed should be **pure functions**. No side effects, just calculations.
 
 ### Mistake 2: Mutating Inside Computed
 

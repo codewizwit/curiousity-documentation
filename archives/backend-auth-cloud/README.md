@@ -8,7 +8,7 @@ _The moment I understood that authentication isn't optional_
 
 **When:** 2021 (Bootcamp - Authentication & deployment module)
 **What I was learning:** JWT authentication, OAuth, stateless auth patterns, cloud computing with AWS
-**Why it was hard:** Authentication seemed simple in theory — "just check if they're logged in" — but the implementation was complex. How do you maintain session state without sessions? How do you scale authentication across multiple servers? How do you deploy to the cloud?
+**Why it was hard:** Authentication seemed simple in theory ("just check if they're logged in") but the implementation was complex. How do you maintain session state without sessions? How do you scale authentication across multiple servers? How do you deploy to the cloud?
 **Where I was:** Building full-stack applications and realizing security and deployment are non-negotiable
 
 **The challenge:** Understanding that authentication and authorization aren't the same thing, and both are critical for production applications.
@@ -17,7 +17,7 @@ _The moment I understood that authentication isn't optional_
 
 ## The Notes
 
-These 2 pages capture me learning JWT authentication and cloud deployment — the invisible infrastructure that makes applications secure and scalable.
+These 2 pages capture me learning JWT authentication and cloud deployment: the invisible infrastructure that makes applications secure and scalable.
 
 ### Page 1: JWT Authorization Flow
 ![JWT Authorization Flow](./01-jwt-authorization-flow.jpeg)
@@ -32,7 +32,7 @@ Detailed notes on authorization flow: JWT tokens, bearer tokens, authentication 
 - **Authentication**: Who are you? (Login with credentials, get JWT)
 - **Authorization**: What can you do? (Check JWT on protected routes)
 
-The bearer token in the `Authorization` header is how the frontend proves identity on every request. Middleware validates it before allowing access. This was the breakthrough — understanding the flow end-to-end.
+The bearer token in the `Authorization` header is how the frontend proves identity on every request. Middleware validates it before allowing access. This was the breakthrough: understanding the flow end-to-end.
 
 ---
 
@@ -48,13 +48,13 @@ Notes on AWS and cloud computing concepts:
 Cloud computing terminology: data centers, server farms, hybrid cloud, public/private cloud.
 
 **What I notice now:**
-**Cloud computing is renting compute power instead of buying servers.** You pay for what you use, scale up or down on demand, and someone else manages the hardware. AWS provides the infrastructure; you provide the code. Understanding this made deployment less scary — it's just running your code on someone else's computer.
+**Cloud computing is renting compute power instead of buying servers.** You pay for what you use, scale up or down on demand, and someone else manages the hardware. AWS provides the infrastructure; you provide the code. Understanding this made deployment less scary. It's just running your code on someone else's computer.
 
 ---
 
 ## The Aha Moment
 
-**Page 1 — JWT Authorization Flow**
+**Page 1: JWT Authorization Flow**
 
 The breakthrough came from understanding the **complete authentication lifecycle**:
 
@@ -78,7 +78,7 @@ The breakthrough came from understanding the **complete authentication lifecycle
 
 Traditional sessions require the server to store "who's logged in" in memory or a database. Every request hits the session store to check validity.
 
-JWTs flip this: **the token itself is proof of authentication.** The server just verifies the signature (using its secret key). No database lookup needed. This scales horizontally — any server can validate any token.
+JWTs flip this: **the token itself is proof of authentication.** The server just verifies the signature (using its secret key). No database lookup needed. This scales horizontally. Any server can validate any token.
 
 **But JWTs have a tradeoff:** you can't revoke them before they expire. If a token is compromised, it's valid until expiration. That's why short expiration times matter.
 
@@ -117,9 +117,9 @@ Tradeoffs:
 
 This is why you see short expiration times (15 min) paired with refresh tokens (7 days). The JWT expires quickly, limiting damage from theft. The refresh token lives in an httpOnly cookie, used only to get new JWTs.
 
-**Security isn't a feature — it's a requirement built into the architecture.**"
+**Security isn't a feature. It's a requirement built into the architecture.**"
 
-**The wristband metaphor started here** — trying to make JWTs concrete instead of abstract crypto magic.
+**The wristband metaphor started here**, trying to make JWTs concrete instead of abstract crypto magic.
 
 ---
 
@@ -127,7 +127,7 @@ This is why you see short expiration times (15 min) paired with refresh tokens (
 
 **Backend architecture is about trust boundaries.**
 
-Every API endpoint is a trust boundary: Can I trust this request? Is this user authorized? The backend's job is to validate, authorize, and protect data. Frontend can be manipulated — backend is the source of truth.
+Every API endpoint is a trust boundary: Can I trust this request? Is this user authorized? The backend's job is to validate, authorize, and protect data. Frontend can be manipulated. Backend is the source of truth.
 
 **Authentication is hard to get right.**
 
