@@ -1,6 +1,6 @@
 # TypeScript Deep Dives
 
-_Making sense of types, one footgun at a time._
+_Making sense of null vs undefined, one roll at a time._
 
 ## Overview
 
