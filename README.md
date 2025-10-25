@@ -56,7 +56,8 @@ If you've ever Googled something and wished the explanation was written by a hum
 | **[⚡ Angular](./angular/README.md)** | Signals, computed, effect: the whiteboard metaphor for Angular's new reactivity system |
 | **[⚛️ React](./react/README.md)** | Components, hooks, and the LEGO metaphor. Building UIs one block at a time |
 | **[🚀 Next.js](./nextjs/README.md)** | The restaurant kitchen metaphor for SSR, SSG, and rendering modes |
-| **[🏗️ Angular + Nx](./angular-nx/README.md)** | Micro-frontends, module federation, and taming monorepos |
+| **[🏗️ Angular + Nx](./angular-nx/README.md)** | Monorepo architecture, dependency graphs, and computation caching |
+| **[🔌 Module Federation](./module-federation/README.md)** | Micro-frontends without the micro-headaches. Dynamic remote loading, shared dependencies, and independent deployment |
 
 ---
 
@@ -182,6 +183,8 @@ curiosity-documentation/
 ├── github-actions/
 │   └── README.md
 ├── jwts/
+│   └── README.md
+├── module-federation/
 │   └── README.md
 ├── mongodb/
 │   └── README.md
