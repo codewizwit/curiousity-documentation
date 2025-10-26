@@ -241,7 +241,7 @@ Here's what I've learned about running meetings where curiosity beats hierarchy:
 ### After the Meeting
 - Document the decision AND the reasoning (future context matters)
 - Thank people for speaking up (reinforce the behavior)
-- Follow up on questions (even the ones that felt "dumb")
+- Follow up on questions (even the ones that felt "small")
 
 **The goal isn't consensus. It's making sure the best idea wins, regardless of who said it.**
 
