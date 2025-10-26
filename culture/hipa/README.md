@@ -263,7 +263,7 @@ You see things others don't. Fresh eyes catch what experienced eyes overlook. Yo
 Timing matters. You don't need to be the first voice in the room. But you also don't have to stay silent forever. Find your moment.
 
 ### Written Words Can Feel Safer
-If speaking up in meetings feels vulnerable, try sharing your idea in Slack or email first. Some of the best ideas come from async conversations.
+If speaking up in meetings feels vulnerable, try sharing your idea in chat or email first. Some of the best ideas come from async conversations.
 
 ### Find Your Allies
 Look for the people who ask questions and make space for others. Sit near them. They'll make space for you too.
