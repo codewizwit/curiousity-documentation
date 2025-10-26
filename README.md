@@ -86,6 +86,14 @@ If you've ever Googled something and wished the explanation actually made sense,
 
 ---
 
+### 🤝 Culture & Collaboration
+
+| Topic | What I'm Figuring Out |
+|-------|----------------------|
+| **[🧩 The HIPA Moment](./culture/hipa/README.md)** | Why the highest paid person in the room doesn't always have the best idea. Creating space for curiosity when silence feels safer. Making room for better ideas by asking questions, even when it's uncomfortable. |
+
+---
+
 ### 📘 Languages & Fundamentals
 
 | Topic | What I'm Figuring Out |
@@ -171,6 +179,9 @@ curiosity-documentation/
 │   ├── iam/
 │   │   └── README.md
 │   └── lambda/
+│       └── README.md
+├── culture/
+│   └── hipa/
 │       └── README.md
 ├── github-actions/
 │   └── README.md
